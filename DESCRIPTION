@@ -1,0 +1,15 @@
+Package: KHCMinR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jimin",
+           family = "Chae",
+           role = c("aut", "cre"),
+           email = "regenesis90@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package automately calculating functions from KHCM(2013)
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
