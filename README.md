@@ -43,8 +43,16 @@
 * `LOS_freeway_ramp_junction`
 * `influence_capacity_ramp_junction`
 * `analysis_constraint_freeway_ramp_junction`
+
 ### 고속도로 종합 분석
+
 ### 다차로도로
+* `F_B`
+* `F_H`
+* `F_A`
+* `F_S`
+* `F_V`
+* 
 ### 2차로도로
 ### 신호교차로
 ### 연결로-일반도로 결합부
