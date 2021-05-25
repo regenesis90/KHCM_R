@@ -40,6 +40,9 @@
 * `LOS_freeway_weaving`
 
 ### 고속도로 연결로 접속부
+* `LOS_freeway_ramp_junction`
+* `influence_capacity_ramp_junction`
+* `analysis_constraint_freeway_ramp_junction`
 ### 고속도로 종합 분석
 ### 다차로도로
 ### 2차로도로
