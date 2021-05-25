@@ -1,9 +1,9 @@
 #' Average Density in Freeway Weaving Section(D_avg_weaving, pcpkmpl)
 #'
 #' This function calculates the average density in freeway weaving section.(pcpkmpl)
-#' @param V *Numeric* Total traffic volume of the weaving section(pcph)
-#' @param V_w *Numeric* Weaving traffic volume(pcph)
-#' @param V_nw *Numeric* Non-weaving traffic volume(pcph)
+#' @param V *Numeric* Total traffic volume of the weaving section(pcph). Input values should be transformed to peak-hour's(including heavy vehicle's influence)
+#' @param V_w *Numeric* Weaving traffic volume(pcph) Input values should be transformed to peak-hour's(including heavy vehicle's influence)
+#' @param V_nw *Numeric* Non-weaving traffic volume(pcph) Input values should be transformed to peak-hour's(including heavy vehicle's influence)
 #' @param S_w *Numeric* Average Speed of Weaving Traffic Flow in Freeway Weaving Section(S_w, kph)
 #' @param S_nw *Numeric* Average Speed of Non-Weaving Traffic Flow in Freeway Weaving Section(S_nw, kph)
 #' @param N *Numeric* Total number of lanes in the weaving section
