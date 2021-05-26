@@ -59,6 +59,10 @@
 ### 2차로도로
 * `TDR`
 * `LOS_2lane_road`
+* `ESL_2lane_road`
+* `PHF_2lane_road`
+* `E_T_2lane_Road`
+* 
 ### 신호교차로
 ### 연결로-일반도로 결합부
 ### 비신호교차로
