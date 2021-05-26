@@ -4,7 +4,7 @@
 ![Fast car-bro-small](https://user-images.githubusercontent.com/75024126/119323940-312e7800-bcba-11eb-9ae4-f31789f1a463.png)
 
 
-* Ver. : 0.0.9000 (in developing now)
+* Ver. : 0.0.0.9000 (개발 중)
 * Starts at : 2021.05.22.
 * Participant : [Jimin Chae](https://github.com/regenesis90)
 
