@@ -53,9 +53,12 @@
 * `F_S`
 * `F_V`
 * `capacity_multilane_road`
-* `LOS_multilane_lode`
+* `LOS_multilane_road`
+* `B_multilane_road`
+* `H_multilane_road`
 ### 2차로도로
 * `TDR`
+* `LOS_2lane_road`
 ### 신호교차로
 ### 연결로-일반도로 결합부
 ### 비신호교차로
