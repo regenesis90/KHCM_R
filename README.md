@@ -72,6 +72,10 @@
 ### 신호교차로
 * `LOS_signalized_intersection`
 * `F_U`
+* `F_R`
+* `P_signalized_intersection`
+* `E_p`
+* `E_u`
 ### 연결로-일반도로 결합부
 ### 비신호교차로
 ### 회전교차로
