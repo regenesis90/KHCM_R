@@ -26,7 +26,7 @@
 * `SFi`
 * `number_of_lanes_required`
 * `Vp`
-### 고속도로 기본 구간`
+### 고속도로 기본 구간
 * `LOS_freeway_basic`
 * `capacity`
 
@@ -70,6 +70,8 @@
 * `TDR_2lane_plus1_TD`
 * `ATS_2lane_plus1_TD`
 ### 신호교차로
+* `LOS_signalized_intersection`
+* `F_U`
 ### 연결로-일반도로 결합부
 ### 비신호교차로
 ### 회전교차로
