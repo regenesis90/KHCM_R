@@ -62,7 +62,13 @@
 * `ESL_2lane_road`
 * `PHF_2lane_road`
 * `E_T_2lane_Road`
-* 
+* `f_w_D`
+* `f_np`
+* `f_pl`
+* `TDR_2lane_plus1`
+* `ATS_2lane_plus1`
+* `TDR_2lane_plus1_TD`
+* `ATS_2lane_plus1_TD`
 ### 신호교차로
 ### 연결로-일반도로 결합부
 ### 비신호교차로
