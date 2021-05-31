@@ -76,6 +76,12 @@
 * `P_signalized_intersection`
 * `E_p`
 * `E_u`
+* `E_1`
+* `L_dw`
+* `T_b`
+* `L_bb`
+* `L_p`
+* `L_H`
 ### 연결로-일반도로 결합부
 ### 비신호교차로
 ### 회전교차로
