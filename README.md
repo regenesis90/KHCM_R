@@ -125,6 +125,8 @@
 * `tau_1`
 * `mu_B`
 * `mu_F`
+* `g_i_backtick_upstream`
+* `g_i_backtick_downstream`
 ### 비신호교차로
 ### 회전교차로
 ### 도시 및 교외 간선도로
