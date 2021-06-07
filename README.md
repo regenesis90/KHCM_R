@@ -127,6 +127,9 @@
 * `mu_F`
 * `g_i_backtick_upstream`
 * `g_i_backtick_downstream`
+* `c_i_diamond_interchange`
+* `X_i_diamond_interchange`
+* `d_I`
 ### 비신호교차로
 ### 회전교차로
 ### 도시 및 교외 간선도로
