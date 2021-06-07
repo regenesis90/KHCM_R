@@ -143,6 +143,14 @@
 * `LOS_uncontrolled_intersection`
 ### 회전교차로
 * `LOS_roundabout`
+* `V_c_NB`
+* `c_roundabout`
+* `f_p`
+* `Vp_i_roundabout`
+* `E_T_roundabout`
+* `f_hv_roundabout`
+* `V_i_pce`
+* `V_c_i_roundabout`
 ### 도시 및 교외 간선도로
 ### 대중교통
 ### 보행자 시설
