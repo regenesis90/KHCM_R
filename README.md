@@ -142,6 +142,7 @@
 * `LOS_two_way_stop`
 * `LOS_uncontrolled_intersection`
 ### 회전교차로
+* `LOS_roundabout`
 ### 도시 및 교외 간선도로
 ### 대중교통
 ### 보행자 시설
