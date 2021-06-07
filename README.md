@@ -152,6 +152,10 @@
 * `V_i_pce`
 * `V_c_i_roundabout`
 ### 도시 및 교외 간선도로
+* `LOS_arterial`
+* `free_speed_arterial`
+* `roadside_friction_arterial`
+* `t_p_km_arterial`
 ### 대중교통
 ### 보행자 시설
 ### 자전거도로
