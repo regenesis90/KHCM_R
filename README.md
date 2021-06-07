@@ -135,6 +135,12 @@
 * `t_c_x`
 * `t_f_x`
 * `c_p_x`
+* `p_i_nonsignalize_intersection`
+* `V_i_per_c_pi`
+* `c_SH`
+* `d_nonsignaled_intersection`
+* `LOS_two_way_stop`
+* `LOS_uncontrolled_intersection`
 ### 회전교차로
 ### 도시 및 교외 간선도로
 ### 대중교통
