@@ -7,7 +7,7 @@
 P_signalized_intersection(V_o = NULL)
 }
 \arguments{
-\item{V_o}{*Numeric* Opposite traffic volume(vph)}
+\item{V_o}{\emph{Numeric} Opposite traffic volume(vph)}
 }
 \description{
 This function follows <Table 8-8> in KHCM(2013)

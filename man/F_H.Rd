@@ -7,11 +7,11 @@
 F_H(H = NULL, vehicle_type = NULL, speed = NULL)
 }
 \arguments{
-\item{H}{*Numeric* Hillness. Vertical Curve Curvature in Multi-lane Road(H, degree/km)}
+\item{H}{\emph{Numeric} Hillness. Vertical Curve Curvature in Multi-lane Road(H, degree/km)}
 
-\item{vehicle_type}{*Categorical* Choose one from : \code{'normal_vehicle'}, \code{'heavy_vehicle'}}
+\item{vehicle_type}{\emph{Categorical} Choose one from : \code{'normal_vehicle'}, \code{'heavy_vehicle'}}
 
-\item{speed}{*Numeric* Speed(kph). What speed?}
+\item{speed}{\emph{Numeric} Speed(kph). What speed?}
 }
 \description{
 This function calculates vertical curve curvature in multi-lane road. It follows <Table 6-4> in KHCM(2013).

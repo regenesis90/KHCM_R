@@ -7,9 +7,9 @@
 F_R(intersection_prongs = NULL, dowry = NULL)
 }
 \arguments{
-\item{intersection_prongs}{*Categorical* Choose one from : \code{3}, \code{4}}
+\item{intersection_prongs}{\emph{Categorical} Choose one from : \code{3}, \code{4}}
 
-\item{dowry}{*Categorical* \code{'yes'}, \code{'no'}}
+\item{dowry}{\emph{Categorical} \code{'yes'}, \code{'no'}}
 }
 \description{
 This function follows <Table 8-6> in KHCM(2013)

@@ -2,14 +2,14 @@
 % Please edit documentation in R/E_u.R
 \name{E_u}
 \alias{E_u}
-\title{Forward conversion factor of left turn by U-turn %(E_u)}
+\title{Forward conversion factor of left turn by U-turn \%(E_u)}
 \usage{
 E_u(N_left = NULL, u_tern_ratio = NULL)
 }
 \arguments{
-\item{N_left}{*Categorical* Number of left-turn lane. \code{1}, \code{2}}
+\item{N_left}{\emph{Categorical} Number of left-turn lane. \code{1}, \code{2}}
 
-\item{u_tern_ratio}{*Numeric* U-tern ratio(%)}
+\item{u_tern_ratio}{\emph{Numeric} U-tern ratio(\%)}
 }
 \description{
 This function follows <Table 8-10>, <Table 8-11> in KHCM(2013)

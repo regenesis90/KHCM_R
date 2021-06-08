@@ -9,7 +9,7 @@ V_i_pce(lane = NULL, hv_ratio = NULL, P_T = NULL)
 \arguments{
 \item{lane}{Choose one from L \code{1}, \code{2}}
 
-\item{hv_ratio}{Heavy Vehicle Ratio(%)}
+\item{hv_ratio}{Heavy Vehicle Ratio(\%)}
 
 \item{P_T}{Heavy Vehicle Mixing Ratio}
 

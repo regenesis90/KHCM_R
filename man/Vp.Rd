@@ -7,11 +7,11 @@
 Vp(V = NULL, PHF = NULL, f_hv = 1)
 }
 \arguments{
-\item{V}{*Numeric* Current or future traffic volume. It must be positive.}
+\item{V}{\emph{Numeric} Current or future traffic volume. It must be positive.}
 
-\item{PHF}{*Numeric* Peak Hour Factor(PHF). It is a value between 0 and 1.}
+\item{PHF}{\emph{Numeric} Peak Hour Factor(PHF). It is a value between 0 and 1.}
 
-\item{f_hv}{*Numeric* Heavy Vehicle Factors(f_hv)}
+\item{f_hv}{\emph{Numeric} Heavy Vehicle Factors(f_hv)}
 }
 \description{
 This function calculates traffic volume converted to peak hour(vph) by using PHF(peak hour factor).

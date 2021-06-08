@@ -7,9 +7,9 @@
 B_multilane_road(angles = NULL, L = NULL)
 }
 \arguments{
-\item{angles}{*Series* Series of each direct angle. \code{c(theta1, theta2, theta3, ...)} (degree)}
+\item{angles}{\emph{Series} Series of each direct angle. \code{c(theta1, theta2, theta3, ...)} (degree)}
 
-\item{L}{*Numeric* Length of the route(km). Generally, \code{L = 3}}
+\item{L}{\emph{Numeric} Length of the route(km). Generally, \code{L = 3}}
 }
 \description{
 This function calculates horizontal curve curvature in multi-lane road. It follows <Formula 6-1> in KHCM(2013).

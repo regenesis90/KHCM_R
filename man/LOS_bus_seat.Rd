@@ -15,7 +15,7 @@ LOS_bus_seat(n_psg = NULL, psg_by_seat = NULL, area_psg = NULL)
 }
 \description{
 It follows <Table 13-3> in KHCM(2013), p.593.
-    It based on the vehicle area of 23.30㎡, standing area of 3.77㎡, 45 seats.
+It based on the vehicle area of 23.30㎡, standing area of 3.77㎡, 45 seats.
 }
 \examples{
 LOS_bus_seat(n_psg = 30)

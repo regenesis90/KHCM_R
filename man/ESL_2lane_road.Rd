@@ -7,15 +7,15 @@
 ESL_2lane_road(V_d = NULL, LB = NULL, g_c_ratio = NULL, L = NULL, DIS = NULL)
 }
 \arguments{
-\item{V_d}{*Numeric* Traffic in the direction of travel(pcph?)}
+\item{V_d}{\emph{Numeric} Traffic in the direction of travel(pcph?)}
 
-\item{LB}{*Categorical* Whether the left turn-only lane exist. \code{LB = 1} means exist. \code{LB = 0} means not.}
+\item{LB}{\emph{Categorical} Whether the left turn-only lane exist. \code{LB = 1} means exist. \code{LB = 0} means not.}
 
-\item{g_c_ratio}{*Numeric* Effective green time ratio}
+\item{g_c_ratio}{\emph{Numeric} Effective green time ratio}
 
-\item{L}{*Numeric* Direction Traffic Volume Left Turn Ratio}
+\item{L}{\emph{Numeric} Direction Traffic Volume Left Turn Ratio}
 
-\item{DIS}{*Numeric* Direction traffic volume straight forward ratio}
+\item{DIS}{\emph{Numeric} Direction traffic volume straight forward ratio}
 }
 \description{
 This function follows <Formula 7-3>

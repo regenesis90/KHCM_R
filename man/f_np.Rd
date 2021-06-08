@@ -7,13 +7,13 @@
 f_np(V_d = NULL, V_o = NULL, overtaking_prop = NULL, output = NULL)
 }
 \arguments{
-\item{V_d}{*Numeric* One-way traffic volume(pcph?)}
+\item{V_d}{\emph{Numeric} One-way traffic volume(pcph?)}
 
-\item{V_o}{*Numeric* Opposite traffic volume(pcph?)}
+\item{V_o}{\emph{Numeric} Opposite traffic volume(pcph?)}
 
-\item{overtaking_prop}{*Numeric* Proportion of no overtaking section.}
+\item{overtaking_prop}{\emph{Numeric} Proportion of no overtaking section.}
 
-\item{output}{*Categorical* Choose one from : \code{'travel_speed'}(kph), \code{'TDR'}}
+\item{output}{\emph{Categorical} Choose one from : \code{'travel_speed'}(kph), \code{'TDR'}}
 }
 \description{
 It follows <Table 7-12> in KHCM(2013).

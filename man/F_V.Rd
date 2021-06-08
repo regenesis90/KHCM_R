@@ -7,11 +7,11 @@
 F_V(V = NULL, vehicle_type = NULL, traffic_light_density = NULL)
 }
 \arguments{
-\item{V}{*Numeric* Traffic Volume(vphpl). This factor is available when traffic volume is under than 500vphpl.}
+\item{V}{\emph{Numeric} Traffic Volume(vphpl). This factor is available when traffic volume is under than 500vphpl.}
 
-\item{vehicle_type}{*Categorical* Choose one from : \code{'normal_vehicle'}, \code{'heavy_vehicle'}}
+\item{vehicle_type}{\emph{Categorical} Choose one from : \code{'normal_vehicle'}, \code{'heavy_vehicle'}}
 
-\item{traffic_light_density}{*Numeric* Density of traffic lights(ea/km)}
+\item{traffic_light_density}{\emph{Numeric} Density of traffic lights(ea/km)}
 }
 \description{
 It follows <Table 6-7> in KHCM(2013).

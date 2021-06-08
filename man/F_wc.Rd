@@ -7,9 +7,9 @@
 F_wc(lateral_clearance = NULL, lane_width = NULL)
 }
 \arguments{
-\item{lateral_clearance}{*Numeric* The lateral clearance of lane. From the center line of the center line to the pavement edge of the lane. The Average of left lateral clearance and right lateral clearance.}
+\item{lateral_clearance}{\emph{Numeric} The lateral clearance of lane. From the center line of the center line to the pavement edge of the lane. The Average of left lateral clearance and right lateral clearance.}
 
-\item{lane_width}{*Categorical* The width of each lane(m). Choose one from: \code{3.5}, \code{3.25}, \code{3}}
+\item{lane_width}{\emph{Categorical} The width of each lane(m). Choose one from: \code{3.5}, \code{3.25}, \code{3}}
 }
 \description{
 This function calculates the one side lane width and lateral clearance speed correction factor(F_wc) in given conditions. It follows <Table 6-2> in KHCM(2013).

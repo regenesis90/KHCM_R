@@ -7,7 +7,7 @@
 LOS_signalized_intersection(control_delay = NULL)
 }
 \arguments{
-\item{control_delay}{*Numeric* (s) Delay due to the reduction or stop of the lane group due to signal control, The increase in travel time compared to travel time when there is no deceleration or stop.}
+\item{control_delay}{\emph{Numeric} (s) Delay due to the reduction or stop of the lane group due to signal control, The increase in travel time compared to travel time when there is no deceleration or stop.}
 }
 \description{
 This function decides Level of Service(LOS). It follows <Table 8-2>

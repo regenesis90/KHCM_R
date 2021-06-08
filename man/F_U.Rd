@@ -7,11 +7,11 @@
 F_U(V_avg = NULL, design_level = NULL, N = NULL)
 }
 \arguments{
-\item{V_avg}{*Numeric* Average traffic volume by lane.(vphpl)}
+\item{V_avg}{\emph{Numeric} Average traffic volume by lane.(vphpl)}
 
-\item{design_level}{*Categorical* Choose one from : \code{C}, \code{D}, \code{E}}
+\item{design_level}{\emph{Categorical} Choose one from : \code{C}, \code{D}, \code{E}}
 
-\item{N}{*Numeric* Number of exclusive lanes going straight}
+\item{N}{\emph{Numeric} Number of exclusive lanes going straight}
 }
 \description{
 This function decides Level of Service(LOS). It follows <Table 8-5>

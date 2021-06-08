@@ -7,7 +7,7 @@
 E_p(radius = NULL)
 }
 \arguments{
-\item{radius}{*Numeric* Left turn curve radius(m)}
+\item{radius}{\emph{Numeric} Left turn curve radius(m)}
 }
 \description{
 This function follows <Table 8-9> in KHCM(2013)

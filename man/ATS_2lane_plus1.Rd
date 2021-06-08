@@ -18,25 +18,25 @@ ATS_2lane_plus1(
 )
 }
 \arguments{
-\item{n}{*Numeric* Number of 2+1 lane road section.}
+\item{n}{\emph{Numeric} Number of 2+1 lane road section.}
 
-\item{ATS_up_i}{*Numeric* =TDR_d. The speed of the one-way basic section of the i-th two-lane road (upstream part of the 2+1 lane road)}
+\item{ATS_up_i}{\emph{Numeric} =TDR_d. The speed of the one-way basic section of the i-th two-lane road (upstream part of the 2+1 lane road)}
 
-\item{ATS_dn_i}{*Numeric* Traffic speed in one direction downstream of the i-th 2+1 lane road}
+\item{ATS_dn_i}{\emph{Numeric} Traffic speed in one direction downstream of the i-th 2+1 lane road}
 
-\item{fs_pl_i}{*Numeric* Traffic speed correction factor for the i-th overtaking lane section (<Table 7-15>)}
+\item{fs_pl_i}{\emph{Numeric} Traffic speed correction factor for the i-th overtaking lane section (<Table 7-15>)}
 
-\item{L_up_i}{*Numeric* Analysis section length (m) upstream of the overtaking lane section among the i-th analysis target section}
+\item{L_up_i}{\emph{Numeric} Analysis section length (m) upstream of the overtaking lane section among the i-th analysis target section}
 
-\item{L_dn_i}{*Numeric* The length of the analysis target section before entering the i-th overtaking lane (m)}
+\item{L_dn_i}{\emph{Numeric} The length of the analysis target section before entering the i-th overtaking lane (m)}
 
-\item{L_pl_i}{*Numeric* Section length of the i-th overtaking lane (m)}
+\item{L_pl_i}{\emph{Numeric} Section length of the i-th overtaking lane (m)}
 
-\item{f_w_ATS_up_i}{*Numeric*}
+\item{f_w_ATS_up_i}{\emph{Numeric}}
 
-\item{f_w_ATS_dn_i}{*Numeric* Lane width and side clearance width of the downstream section of the i-th overtaking lane}
+\item{f_w_ATS_dn_i}{\emph{Numeric} Lane width and side clearance width of the downstream section of the i-th overtaking lane}
 
-\item{f_w_ATS_pl_i}{*Numeric* Lane width and side clearance width of the i-th overtaking lane section}
+\item{f_w_ATS_pl_i}{\emph{Numeric} Lane width and side clearance width of the i-th overtaking lane section}
 }
 \description{
 This function follows <Formula 7-15>

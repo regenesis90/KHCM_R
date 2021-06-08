@@ -22,9 +22,9 @@ LOS_bus_standing(
 }
 \description{
 It follows <Table 13-4> in KHCM(2013), p.594.
-    It based on following standard.
-    * City Bus : vehicle area of 26.37㎡, standing area of 7.5㎡, 31 seats.
-    * Circular Bus : vehicle area of 16.05㎡, standing area of 3.48㎡, 24 seats.
+It based on following standard.
+* City Bus : vehicle area of 26.37㎡, standing area of 7.5㎡, 31 seats.
+* Circular Bus : vehicle area of 16.05㎡, standing area of 3.48㎡, 24 seats.
 }
 \examples{
 LOS_bus_standing('city', 30)

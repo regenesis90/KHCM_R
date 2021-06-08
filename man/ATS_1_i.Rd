@@ -9,13 +9,13 @@ ATS_1_i(FFS = NULL, V_d = NULL, V_o = NULL, f_np_ATS = NULL, f_w_ATS = NULL)
 \arguments{
 \item{FFS}{Free speed(kph)}
 
-\item{V_d}{*Numeric* Traffic in the direction of travel(pcph?)}
+\item{V_d}{\emph{Numeric} Traffic in the direction of travel(pcph?)}
 
-\item{V_o}{*Numeric* Counter traffic(pcph?)}
+\item{V_o}{\emph{Numeric} Counter traffic(pcph?)}
 
-\item{f_np_ATS}{*Numeric* See <Table 7-12>}
+\item{f_np_ATS}{\emph{Numeric} See <Table 7-12>}
 
-\item{f_w_ATS}{*Numeric* See <Table 7-11>}
+\item{f_w_ATS}{\emph{Numeric} See <Table 7-11>}
 }
 \description{
 This function follows <Formula 6-2>

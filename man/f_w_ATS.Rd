@@ -7,9 +7,9 @@
 f_w_ATS(lateral_clearance = NULL, lane_width = NULL)
 }
 \arguments{
-\item{lateral_clearance}{*Numeric* The lateral clearance of lane. From the center line of the center line to the pavement edge of the lane. The Average of left lateral clearance and right lateral clearance.}
+\item{lateral_clearance}{\emph{Numeric} The lateral clearance of lane. From the center line of the center line to the pavement edge of the lane. The Average of left lateral clearance and right lateral clearance.}
 
-\item{lane_width}{*Numeric* The width of each lane(m). It must be more than 2.75}
+\item{lane_width}{\emph{Numeric} The width of each lane(m). It must be more than 2.75}
 }
 \description{
 This function maximum reduced speed. It follows <Table 7-11> in KHCM(2013).

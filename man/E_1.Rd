@@ -18,25 +18,25 @@ E_1(
 )
 }
 \arguments{
-\item{left_signal_operation}{*Categorical* \code{'two_sided_protection'}, \code{'direct_left_sinultaneous'}, \code{'unprotected'}}
+\item{left_signal_operation}{\emph{Categorical} \code{'two_sided_protection'}, \code{'direct_left_sinultaneous'}, \code{'unprotected'}}
 
-\item{left_turn}{*Categorical* \code{'private'}, \code{'public'}}
+\item{left_turn}{\emph{Categorical} \code{'private'}, \code{'public'}}
 
-\item{N_left}{*categorical* Number of left-turn lane. \code{1}, \code{2}}
+\item{N_left}{\emph{categorical} Number of left-turn lane. \code{1}, \code{2}}
 
-\item{N}{*Numeric* Number of access lanes (excluding dedicated left-turn lanes)}
+\item{N}{\emph{Numeric} Number of access lanes (excluding dedicated left-turn lanes)}
 
-\item{P}{*Numeric* Number of possible unprotected left turns per gap by opposite traffic volume}
+\item{P}{\emph{Numeric} Number of possible unprotected left turns per gap by opposite traffic volume}
 
-\item{V_o}{*Numeric* Opposite traffic volume(vph)}
+\item{V_o}{\emph{Numeric} Opposite traffic volume(vph)}
 
-\item{V_L}{*Numeric* Left turn traffic volume(vph)}
+\item{V_L}{\emph{Numeric} Left turn traffic volume(vph)}
 
-\item{V_TH}{*Numeric* Straight-through traffic volume(vph)}
+\item{V_TH}{\emph{Numeric} Straight-through traffic volume(vph)}
 
-\item{C}{*Numeric* Period(s)}
+\item{C}{\emph{Numeric} Period(s)}
 
-\item{g_c_ratio}{*Numeric* Effective green hour rate}
+\item{g_c_ratio}{\emph{Numeric} Effective green hour rate}
 }
 \description{
 This function follows <Formula 8-6> in KHCM(2013)

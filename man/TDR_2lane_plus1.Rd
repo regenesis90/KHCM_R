@@ -2,7 +2,7 @@
 % Please edit documentation in R/TDR_2lane_plus1.R
 \name{TDR_2lane_plus1}
 \alias{TDR_2lane_plus1}
-\title{Total Delay Rate for i Sections in One Direction on a 2+1 Lane Road(TDR_2lane_plus1, %)}
+\title{Total Delay Rate for i Sections in One Direction on a 2+1 Lane Road(TDR_2lane_plus1, \%)}
 \usage{
 TDR_2lane_plus1(
   TDR_up_i = NULL,
@@ -17,25 +17,25 @@ TDR_2lane_plus1(
 )
 }
 \arguments{
-\item{TDR_up_i}{*Numeric* Total delay rate of the basic section of the i-th two-lane road in one direction (upstream part of the 2+1 lane road)See TDR().}
+\item{TDR_up_i}{\emph{Numeric} Total delay rate of the basic section of the i-th two-lane road in one direction (upstream part of the 2+1 lane road)See TDR().}
 
-\item{TDR_dn_i}{*Numeric* Total delay rate in the downstream part of the i-th 2+1 lane road in one direction. See TDR().}
+\item{TDR_dn_i}{\emph{Numeric} Total delay rate in the downstream part of the i-th 2+1 lane road in one direction. See TDR().}
 
-\item{L_up_i}{*Numeric* Analysis section length (m) upstream of the overtaking lane section among the i-th analysis target section}
+\item{L_up_i}{\emph{Numeric} Analysis section length (m) upstream of the overtaking lane section among the i-th analysis target section}
 
-\item{L_dn_i}{*Numeric* The length of the analysis target section before entering the i-th overtaking lane (m)}
+\item{L_dn_i}{\emph{Numeric} The length of the analysis target section before entering the i-th overtaking lane (m)}
 
-\item{L_pl_i}{*Numeric* Section length of the i-th overtaking lane (m)}
+\item{L_pl_i}{\emph{Numeric} Section length of the i-th overtaking lane (m)}
 
-\item{f_pl_i}{*Numeric* Total delay rate correction factor for the i-th overtaking lane section. See f_pl().}
+\item{f_pl_i}{\emph{Numeric} Total delay rate correction factor for the i-th overtaking lane section. See f_pl().}
 
-\item{f_w_D_up_i}{*Numeric* Lane width and lateral margin correction factor in the upstream section of the i-th overtaking lane. See f_w_D().}
+\item{f_w_D_up_i}{\emph{Numeric} Lane width and lateral margin correction factor in the upstream section of the i-th overtaking lane. See f_w_D().}
 
-\item{f_w_D_dn_i}{*Numeric* Lane width and side clearance width correction factor in the downstream section of the i-th overtaking lane. See f_w_D().}
+\item{f_w_D_dn_i}{\emph{Numeric} Lane width and side clearance width correction factor in the downstream section of the i-th overtaking lane. See f_w_D().}
 
-\item{f_w_D_pl_i}{*Numeric* Lane width and side clearance width correction factor for the i-th overtaking lane section. See f_w_D().}
+\item{f_w_D_pl_i}{\emph{Numeric} Lane width and side clearance width correction factor for the i-th overtaking lane section. See f_w_D().}
 
-\item{n}{*Numeric* Number of 2+1 lane road section.}
+\item{n}{\emph{Numeric} Number of 2+1 lane road section.}
 }
 \description{
 This function follows <Formula 7-13>

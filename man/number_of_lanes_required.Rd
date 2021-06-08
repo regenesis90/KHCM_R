@@ -7,9 +7,9 @@
 number_of_lanes_required(PDDHV = NULL, SFi = NULL)
 }
 \arguments{
-\item{PDDHV}{*Numeric* Peak Directional Design Hourly Volume(PDDHV, vph). It must be positive.}
+\item{PDDHV}{\emph{Numeric} Peak Directional Design Hourly Volume(PDDHV, vph). It must be positive.}
 
-\item{SFi}{*Numeric* #' Service Flow Rate(SFi) It must be positive.}
+\item{SFi}{\emph{Numeric} #' Service Flow Rate(SFi) It must be positive.}
 }
 \description{
 This function calculates the numver of lanes required(N) from PDDHV and SFi. It returns an integer.

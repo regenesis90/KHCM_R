@@ -7,7 +7,7 @@
 LOS_uncontrolled_intersection(r = NULL, V = NULL)
 }
 \arguments{
-\item{r}{main_road_traffic_ratio (%)}
+\item{r}{main_road_traffic_ratio (\%)}
 
 \item{V}{Intersection total traffic (vph)}
 }

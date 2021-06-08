@@ -7,9 +7,9 @@
 F_B(B = NULL, speed = NULL)
 }
 \arguments{
-\item{B}{*Numeric* Bendiness. Horizontal Curve Curvature in Multi-lane Road(B, degree/km)}
+\item{B}{\emph{Numeric} Bendiness. Horizontal Curve Curvature in Multi-lane Road(B, degree/km)}
 
-\item{speed}{*Numeric* Speed(kph). What speed?}
+\item{speed}{\emph{Numeric} Speed(kph). What speed?}
 }
 \description{
 This function calculates horizontal curve curvature in multi-lane road. It follows <Table 6-3> in KHCM(2013).

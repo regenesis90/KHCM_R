@@ -16,21 +16,21 @@ E_R(
 )
 }
 \arguments{
-\item{dowry}{*Categorical* Choose one from : \code{'yes'}, \code{'no'}}
+\item{dowry}{\emph{Categorical} Choose one from : \code{'yes'}, \code{'no'}}
 
-\item{V_R}{*Numeric* Corrected Right Turn Traffic (vph)}
+\item{V_R}{\emph{Numeric} Corrected Right Turn Traffic (vph)}
 
-\item{V_TH}{*Numeric* straight-through traffic (vph)}
+\item{V_TH}{\emph{Numeric} straight-through traffic (vph)}
 
-\item{f_c}{*Numeric* Proportion of time to obstruct right turns among pedestrian crossing signals}
+\item{f_c}{\emph{Numeric} Proportion of time to obstruct right turns among pedestrian crossing signals}
 
-\item{G_p}{*Numeric* Pedestrian crossing signal (sec.)}
+\item{G_p}{\emph{Numeric} Pedestrian crossing signal (sec.)}
 
-\item{C}{*Numeric* Signal Cycle(seconds)}
+\item{C}{\emph{Numeric} Signal Cycle(seconds)}
 
-\item{L_H}{*Numeric* Roadside friction (seconds) due to entry and exit of the back road, bus stop, and on-street parking}
+\item{L_H}{\emph{Numeric} Roadside friction (seconds) due to entry and exit of the back road, bus stop, and on-street parking}
 
-\item{N}{*Categorical* Number of lanes. Choose one from : \code{1}, \code{2}, \code{3}, \code{4}, \code{5}, \code{6}}
+\item{N}{\emph{Categorical} Number of lanes. Choose one from : \code{1}, \code{2}, \code{3}, \code{4}, \code{5}, \code{6}}
 }
 \description{
 This function follows <Table 8-13> in KHCM(2013)

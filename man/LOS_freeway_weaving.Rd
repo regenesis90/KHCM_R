@@ -7,9 +7,9 @@
 LOS_freeway_weaving(type = NULL, density = NULL)
 }
 \arguments{
-\item{type}{*Categorical* Choose one from : \code{'link_link'}, \code{'main_link'}}
+\item{type}{\emph{Categorical} Choose one from : \code{'link_link'}, \code{'main_link'}}
 
-\item{density}{*Numeric* The density of the road(pcpkmpl)}
+\item{density}{\emph{Numeric} The density of the road(pcpkmpl)}
 }
 \description{
 This function decides Level of Service(LOS) in the freeway weaving section.

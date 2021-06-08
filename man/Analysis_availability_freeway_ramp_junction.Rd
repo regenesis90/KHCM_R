@@ -11,11 +11,11 @@ Analysis_availability_freeway_ramp_junction(
 )
 }
 \arguments{
-\item{free_speed}{*Numeric* Free speed in connecting road(kph)}
+\item{free_speed}{\emph{Numeric} Free speed in connecting road(kph)}
 
-\item{N}{*Categorical* The number of one-way lane of connecting road. Choose one from : \code{1}, \code{2}}
+\item{N}{\emph{Categorical} The number of one-way lane of connecting road. Choose one from : \code{1}, \code{2}}
 
-\item{C}{*Numeric* Capacity of the connecting road(pcph)}
+\item{C}{\emph{Numeric} Capacity of the connecting road(pcph)}
 }
 \description{
 It follows <Table 4-2> in KHCM(2013). The suggested capacity value indicates whether or not to proceed with the service level analysis procedure of the connection. Used to judge. If at least one of the points where the capacity value presented in the table exceeds the capacity value, the service level analysis procedure is not performed. When the dose values at the points indicated in the presented table are not exceeded, proceed with the analysis procedure. When all values are not exceeded, the analysis procedure is performed.

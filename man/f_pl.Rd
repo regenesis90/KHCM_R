@@ -7,7 +7,7 @@
 f_pl(V = NULL)
 }
 \arguments{
-\item{V}{*Numeric* Traffic Volume(pcphpl)}
+\item{V}{\emph{Numeric} Traffic Volume(pcphpl)}
 }
 \description{
 This function follows <Table 7-14>

@@ -15,17 +15,17 @@ capacity(
 )
 }
 \arguments{
-\item{design_speed}{*Categorical*}
+\item{design_speed}{\emph{Categorical}}
 
-\item{N}{*Numeric* The number of freeway lane(one-way lane). It must be 2 or more.}
+\item{N}{\emph{Numeric} The number of freeway lane(one-way lane). It must be 2 or more.}
 
-\item{f_w}{*Numeric* The One Side Lane Width and Lateral Clearance Factor(f_w). It could be calculated by f_w()}
+\item{f_w}{\emph{Numeric} The One Side Lane Width and Lateral Clearance Factor(f_w). It could be calculated by f_w()}
 
-\item{f_hv}{*Numeric* Heavy Vehicle Factors(f_hv). See f_hv()}
+\item{f_hv}{\emph{Numeric} Heavy Vehicle Factors(f_hv). See f_hv()}
 
-\item{weather}{*Categorical* Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}}
+\item{weather}{\emph{Categorical} Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}}
 
-\item{day_night}{*Categorical* Choose one from : \code{'day'}, \code{'night'}}
+\item{day_night}{\emph{Categorical} Choose one from : \code{'day'}, \code{'night'}}
 }
 \description{
 This function calculates the capacity(vph) for a given road and traffic condition.

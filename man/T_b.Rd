@@ -7,9 +7,9 @@
 T_b(bus_stop_loc = NULL, bus_passenger_size = NULL)
 }
 \arguments{
-\item{bus_stop_loc}{*Categorical* Choose one from : \code{'driving_lane'}, \code{'separated'}}
+\item{bus_stop_loc}{\emph{Categorical} Choose one from : \code{'driving_lane'}, \code{'separated'}}
 
-\item{bus_passenger_size}{*Categorical* Choose one from: \code{'small'}, \code{'middle'}, \code{'large'}}
+\item{bus_passenger_size}{\emph{Categorical} Choose one from: \code{'small'}, \code{'middle'}, \code{'large'}}
 }
 \description{
 This function follows <Table 8-12> in KHCM(2013)

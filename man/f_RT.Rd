@@ -7,7 +7,7 @@
 f_RT(lane_type = NULL, E_R = NULL, P_R = NULL, P_RT = NULL)
 }
 \arguments{
-\item{lane_type}{*Categorical* Choose from one : \code{'practical_only'}, \code{'public'}}
+\item{lane_type}{\emph{Categorical} Choose from one : \code{'practical_only'}, \code{'public'}}
 }
 \description{
 This function follows <Formula 8-29>, <Formula 8-31> in KHCM(2013)

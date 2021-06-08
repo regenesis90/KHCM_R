@@ -7,7 +7,7 @@
 r_coefficient(t_R = NULL)
 }
 \arguments{
-\item{t_R}{Bus waiting rate(%)}
+\item{t_R}{Bus waiting rate(\%)}
 }
 \description{
 It follows <Table 13-9> KHCM(2013), p.599

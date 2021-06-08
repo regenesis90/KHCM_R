@@ -9,7 +9,7 @@ E_T_roundabout(lane = NULL, hv_ratio = NULL)
 \arguments{
 \item{lane}{Choose one from L \code{1}, \code{2}}
 
-\item{hv_ratio}{Heavy Vehicle Ratio(%)}
+\item{hv_ratio}{Heavy Vehicle Ratio(\%)}
 }
 \description{
 It follows <Table 11-4> in KHCM(2013) p.500

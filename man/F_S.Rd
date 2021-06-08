@@ -12,13 +12,13 @@ F_S(
 )
 }
 \arguments{
-\item{V}{*Numeric* Traffic Volume(vphpl). This factor is available when traffic volume is under than 500vphpl.}
+\item{V}{\emph{Numeric} Traffic Volume(vphpl). This factor is available when traffic volume is under than 500vphpl.}
 
-\item{g_c_ratio}{*Numeric* Average of the signal going straight in the main direction.}
+\item{g_c_ratio}{\emph{Numeric} Average of the signal going straight in the main direction.}
 
-\item{traffic_light_density}{*Numeric* Density of traffic lights(ea/km)}
+\item{traffic_light_density}{\emph{Numeric} Density of traffic lights(ea/km)}
 
-\item{vehicle_type}{*Categorical* Choose one from : \code{'normal_vehicle'}, \code{'heavy_vehicle'}}
+\item{vehicle_type}{\emph{Categorical} Choose one from : \code{'normal_vehicle'}, \code{'heavy_vehicle'}}
 }
 \description{
 It follows <Table 6-6> in KHCM(2013).

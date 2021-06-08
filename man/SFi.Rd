@@ -9,19 +9,19 @@ SFi(c_j = NULL, v_c_ratio_i = NULL, N = NULL, f_w = NULL, f_hv = NULL)
 SFi(c_j = NULL, v_c_ratio_i = NULL, N = NULL, f_w = NULL, f_hv = NULL)
 }
 \arguments{
-\item{v_c_ratio_i}{*Numeric* V/c ratio under LOS i.}
+\item{v_c_ratio_i}{\emph{Numeric} V/c ratio under LOS i.}
 
-\item{N}{*Numeric* The number of freeway lane(one-way lane). It must be 2 or more.}
+\item{N}{\emph{Numeric} The number of freeway lane(one-way lane). It must be 2 or more.}
 
-\item{f_w}{*Numeric* The One Side Lane Width and Lateral Clearance Factor(f_w). It could be calculated by f_w()}
+\item{f_w}{\emph{Numeric} The One Side Lane Width and Lateral Clearance Factor(f_w). It could be calculated by f_w()}
 
-\item{f_hv}{*Numeric* Heavy Vehicle Factors(f_hv). See f_hv()}
+\item{f_hv}{\emph{Numeric} Heavy Vehicle Factors(f_hv). See f_hv()}
 
-\item{design_speed}{*Numeric* Choose one from : \code{120}, \code{100}, \code{80}}
+\item{design_speed}{\emph{Numeric} Choose one from : \code{120}, \code{100}, \code{80}}
 
-\item{Vp}{*Numeric* Traffic Volume Converted to Peak Hour(Vp, vph)}
+\item{Vp}{\emph{Numeric} Traffic Volume Converted to Peak Hour(Vp, vph)}
 
-\item{c}{*Numeric* Capacity}
+\item{c}{\emph{Numeric} Capacity}
 }
 \description{
 This function calculates Service Flow Rate(MSFi) under basic conditions.

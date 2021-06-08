@@ -7,7 +7,7 @@
 P_LT(lane_type = NULL, V_L = NULL, V_R = NULL, V_TH = NULL, V_RF = NULL)
 }
 \arguments{
-\item{lane_type}{*Categorical* Choose from one : \code{'public_left_turn_lane'}, \code{'integrated_lane'}}
+\item{lane_type}{\emph{Categorical} Choose from one : \code{'public_left_turn_lane'}, \code{'integrated_lane'}}
 }
 \description{
 This function follows <Formula 8-23>, <Formula 8-25> in KHCM(2013)

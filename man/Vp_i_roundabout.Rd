@@ -7,9 +7,9 @@
 Vp_i_roundabout(V_i = NULL, PHF = NULL)
 }
 \arguments{
-\item{V_i}{*Numeric* i ramp traffic (vph)}
+\item{V_i}{\emph{Numeric} i ramp traffic (vph)}
 
-\item{PHF}{*Numeric* Peak Hour Factor(PHF). It is a value between 0 and 1.}
+\item{PHF}{\emph{Numeric} Peak Hour Factor(PHF). It is a value between 0 and 1.}
 }
 \description{
 This function calculates traffic volume converted to peak hour(vph) by using PHF(peak hour factor).

@@ -7,9 +7,9 @@
 H_multilane_road(diff_in_height = NULL, L = NULL)
 }
 \arguments{
-\item{diff_in_height}{*Series* Series of each difference in height on direction. \code{c(height1, height2, height3, ...)} (m)}
+\item{diff_in_height}{\emph{Series} Series of each difference in height on direction. \code{c(height1, height2, height3, ...)} (m)}
 
-\item{L}{*Numeric* Length of the route(km). Generally, \code{L = 3}}
+\item{L}{\emph{Numeric} Length of the route(km). Generally, \code{L = 3}}
 }
 \description{
 This function calculates difference in height in multi-lane road. It follows <Formula 6-1> in KHCM(2013).

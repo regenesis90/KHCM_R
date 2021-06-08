@@ -7,13 +7,13 @@
 V_RF(V_R = NULL, V_TH = NULL, C = NULL, N = NULL)
 }
 \arguments{
-\item{V_R}{*Numeric* Right Turn Traffic Volume(vph)}
+\item{V_R}{\emph{Numeric} Right Turn Traffic Volume(vph)}
 
-\item{V_TH}{*Numeric* Straight-through traffic (vph)}
+\item{V_TH}{\emph{Numeric} Straight-through traffic (vph)}
 
-\item{C}{*Numeric* Signal cycle(seconds)}
+\item{C}{\emph{Numeric} Signal cycle(seconds)}
 
-\item{N}{*Categorical* Total number of access lanes (excluding dedicated left-turn lanes). \code{1}, \code{2}, \code{3}, \code{4}, \code{5}, \code{6}}
+\item{N}{\emph{Categorical} Total number of access lanes (excluding dedicated left-turn lanes). \code{1}, \code{2}, \code{3}, \code{4}, \code{5}, \code{6}}
 }
 \description{
 This function follows <Formula 8-15>, <Formula 8-16> in KHCM(2013)

@@ -7,9 +7,9 @@
 MSFi(design_speed = NULL, v_c_ratio_i = NULL)
 }
 \arguments{
-\item{design_speed}{*Numeric* Choose one from : \code{120}, \code{100}, \code{80}}
+\item{design_speed}{\emph{Numeric} Choose one from : \code{120}, \code{100}, \code{80}}
 
-\item{v_c_ratio_i}{*Numeric* V/c ratio under LOS i. It must be more than 0.}
+\item{v_c_ratio_i}{\emph{Numeric} V/c ratio under LOS i. It must be more than 0.}
 }
 \description{
 This function calculates Maximum Service Flow Rate(MSFi) under basic conditions.

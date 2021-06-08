@@ -17,7 +17,7 @@ d_1(
 )
 }
 \arguments{
-\item{type}{*Categorical* Choose one from : \code{1}, \code{2}, \code{3}}
+\item{type}{\emph{Categorical} Choose one from : \code{1}, \code{2}, \code{3}}
 
 \item{Q_b}{Initial number of waiting vehicles (units)}
 

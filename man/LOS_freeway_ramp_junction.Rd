@@ -7,11 +7,11 @@
 LOS_freeway_ramp_junction(V = NULL, capacity = NULL, density = NULL)
 }
 \arguments{
-\item{V}{*Numeric* The traffic volume of target road.}
+\item{V}{\emph{Numeric} The traffic volume of target road.}
 
-\item{capacity}{*Numeric* The capacity of target road,}
+\item{capacity}{\emph{Numeric} The capacity of target road,}
 
-\item{density}{*Numeric* The density of the road(pcpkmpl)}
+\item{density}{\emph{Numeric} The density of the road(pcpkmpl)}
 }
 \description{
 This function decides Level of Service(LOS) in the freeway ramp junction. It follows <Table 4-3> in KHCM(2013).

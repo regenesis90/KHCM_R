@@ -15,19 +15,19 @@ LOS_multilane_road(
 )
 }
 \arguments{
-\item{type}{*Categorical* Type of traffic flow in multi-lane road. Choose one from : \code{'interrupted_flow'}, \code{'uninterrupted_flow'}}
+\item{type}{\emph{Categorical} Type of traffic flow in multi-lane road. Choose one from : \code{'interrupted_flow'}, \code{'uninterrupted_flow'}}
 
-\item{design_speed}{*Categorical* If \code{type == 'uninterrupted_flow'}, design_speed must be used.}
+\item{design_speed}{\emph{Categorical} If \code{type == 'uninterrupted_flow'}, design_speed must be used.}
 
-\item{v_c_ratio}{*Numeric* V/C ratio. It is neccessary when \code{type = 'uninterrupted_flow'}}
+\item{v_c_ratio}{\emph{Numeric} V/C ratio. It is neccessary when \code{type = 'uninterrupted_flow'}}
 
-\item{free_speed}{*Numeric* If \code{type == 'interrupted_flow'}, It means free-speed(kph).}
+\item{free_speed}{\emph{Numeric} If \code{type == 'interrupted_flow'}, It means free-speed(kph).}
 
-\item{speed}{*Numeric* It means speed(kph)}
+\item{speed}{\emph{Numeric} It means speed(kph)}
 
-\item{g_c_ratio}{*Numeric* Average green time ratio. It is neccessary when \code{type == 'interrupted_flow'}}
+\item{g_c_ratio}{\emph{Numeric} Average green time ratio. It is neccessary when \code{type == 'interrupted_flow'}}
 
-\item{service_volume}{*Numeric* Service Traffic Volume(pcphpl)}
+\item{service_volume}{\emph{Numeric} Service Traffic Volume(pcphpl)}
 }
 \description{
 This function decides Level of Service(LOS). It follows <Table 6-8>

@@ -7,13 +7,13 @@
 c_wz(design_speed = NULL, N = NULL, f_w = NULL, f_hv = NULL)
 }
 \arguments{
-\item{design_speed}{*Categorical* Choose one from : \code{120}, \code{100}, \code{80} (kph)}
+\item{design_speed}{\emph{Categorical} Choose one from : \code{120}, \code{100}, \code{80} (kph)}
 
-\item{N}{*Numeric* The number of freeway lane(one-way lane). It means (# of normal one-way lane) - (# of lanes closed due to construction)}
+\item{N}{\emph{Numeric} The number of freeway lane(one-way lane). It means (# of normal one-way lane) - (# of lanes closed due to construction)}
 
-\item{f_w}{*Numeric* The One Side Lane Width and Lateral Clearance Factor(f_w). It could be calculated by f_w()}
+\item{f_w}{\emph{Numeric} The One Side Lane Width and Lateral Clearance Factor(f_w). It could be calculated by f_w()}
 
-\item{f_hv}{*Numeric* Heavy Vehicle Factors(f_hv). See f_hv()}
+\item{f_hv}{\emph{Numeric} Heavy Vehicle Factors(f_hv). See f_hv()}
 }
 \description{
 This function calculates the construction section capacity(vph). It follows <Formula 2-10> in KHCM(2013)

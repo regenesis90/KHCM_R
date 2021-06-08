@@ -12,13 +12,13 @@ influence_capacity_freeway_ramp_junction(
 )
 }
 \arguments{
-\item{free_speed}{*Numeric* It means free speed of main lane.(kph)}
+\item{free_speed}{\emph{Numeric} It means free speed of main lane.(kph)}
 
-\item{V}{*Numeric* Main line traffic volume of branch and confluence section(pcph)}
+\item{V}{\emph{Numeric} Main line traffic volume of branch and confluence section(pcph)}
 
-\item{N}{*Numeric* Total number of lanes(one-way). It must be 2 or more.}
+\item{N}{\emph{Numeric} Total number of lanes(one-way). It must be 2 or more.}
 
-\item{inlet_outlet}{*Categirocal* Choose output. \code{inlet}, \code{outlet}}
+\item{inlet_outlet}{\emph{Categirocal} Choose output. \code{inlet}, \code{outlet}}
 }
 \description{
 This function decides inlet or outlet capacity of the freeway ramp junction(pcph). It follows <Table 4-1> in KHCM(2013).

@@ -12,13 +12,13 @@ LOS_freeway_basic(
 )
 }
 \arguments{
-\item{density}{*Numeric* The density of the road(pcpkmpl)}
+\item{density}{\emph{Numeric} The density of the road(pcpkmpl)}
 
-\item{design_speed}{*Categorical* Choose one from : \code{120}, \code{100}, \code{80}}
+\item{design_speed}{\emph{Categorical} Choose one from : \code{120}, \code{100}, \code{80}}
 
-\item{volume}{*Numeric* Traffic Volume(pcphpl)}
+\item{volume}{\emph{Numeric} Traffic Volume(pcphpl)}
 
-\item{v_c_ratio}{*Numeric* It should be more than zero.}
+\item{v_c_ratio}{\emph{Numeric} It should be more than zero.}
 }
 \description{
 This function decides Level of Service(LOS) in the basic freeway section.

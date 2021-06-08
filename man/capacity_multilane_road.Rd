@@ -13,15 +13,15 @@ capacity_multilane_road(
 )
 }
 \arguments{
-\item{type}{*Categorical* Type of traffic flow in multi-lane road. Choose one from : \code{'interrupted_flow'}, \code{'uninterrupted_flow'}}
+\item{type}{\emph{Categorical} Type of traffic flow in multi-lane road. Choose one from : \code{'interrupted_flow'}, \code{'uninterrupted_flow'}}
 
-\item{design_speed}{*Categorical* If \code{type == 'uninterrupted_flow'}, design_speed must be used.}
+\item{design_speed}{\emph{Categorical} If \code{type == 'uninterrupted_flow'}, design_speed must be used.}
 
-\item{N}{*Numeric* Number of lanes going straight at the intersection.}
+\item{N}{\emph{Numeric} Number of lanes going straight at the intersection.}
 
-\item{S}{*Numeric* Saturation flow(pcphpl)}
+\item{S}{\emph{Numeric} Saturation flow(pcphpl)}
 
-\item{g_c_ratio}{*Numeric* Average green time ratio}
+\item{g_c_ratio}{\emph{Numeric} Average green time ratio}
 }
 \description{
 This function follows <Formula 6-2>

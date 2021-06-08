@@ -7,13 +7,13 @@
 V_LF(V_L = NULL, V_TH = NULL, C = NULL, N = NULL)
 }
 \arguments{
-\item{V_L}{*Numeric* Left Turn Traffic Volume(vph)}
+\item{V_L}{\emph{Numeric} Left Turn Traffic Volume(vph)}
 
-\item{V_TH}{*Numeric* Straight-through traffic (vph)}
+\item{V_TH}{\emph{Numeric} Straight-through traffic (vph)}
 
-\item{C}{*Numeric* Signal cycle(seconds)}
+\item{C}{\emph{Numeric} Signal cycle(seconds)}
 
-\item{N}{*Categorical* Total number of access lanes (excluding dedicated left-turn lanes). \code{4}, \code{5}, \code{6}}
+\item{N}{\emph{Categorical} Total number of access lanes (excluding dedicated left-turn lanes). \code{4}, \code{5}, \code{6}}
 }
 \description{
 This function follows <Formula 8-13>, <Formula 8-14> in KHCM(2013)

@@ -7,12 +7,12 @@
 PHF_2lane_road(V = NULL)
 }
 \arguments{
-\item{V}{*Numeric* Traffic Volume(pcph/bidirectional)}
+\item{V}{\emph{Numeric} Traffic Volume(pcph/bidirectional)}
 }
 \description{
 This function calculates the peak hour factor(PHF) in 2-lane-road in given traffic volume.
-    It is desirable to measure the PHF in the field, and this table is a general value,
-    so it should be used in a limited way.
+It is desirable to measure the PHF in the field, and this table is a general value,
+so it should be used in a limited way.
 }
 \examples{
 PHF_2lane_road(V = 3020)

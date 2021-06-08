@@ -7,13 +7,13 @@
 DDHV(AADT = NULL, region = NULL, road = NULL, lane = NULL)
 }
 \arguments{
-\item{AADT}{*Numeric* Average Annual Daily Traffic(pc/day)}
+\item{AADT}{\emph{Numeric} Average Annual Daily Traffic(pc/day)}
 
-\item{region}{*Categorical* Choose one from : \code{'city'}, \code{'rural'}}
+\item{region}{\emph{Categorical} Choose one from : \code{'city'}, \code{'rural'}}
 
-\item{road}{*Categorical* Choose one from : \code{'general'}, \code{'highway'}}
+\item{road}{\emph{Categorical} Choose one from : \code{'general'}, \code{'highway'}}
 
-\item{lane}{*Numeric* The number of lane(round-trip). It should \code{2} or \code{4} or more.}
+\item{lane}{\emph{Numeric} The number of lane(round-trip). It should \code{2} or \code{4} or more.}
 }
 \description{
 This function calculate Directional Design Hourly Volume(DDHV).

@@ -7,13 +7,13 @@
 PDDHV(AADT = NULL, region = NULL, road = NULL, lane = NULL, PHF = NULL)
 }
 \arguments{
-\item{AADT}{*Numeric* Average Annual Daily Traffic(pc/day, vph)}
+\item{AADT}{\emph{Numeric} Average Annual Daily Traffic(pc/day, vph)}
 
-\item{region}{*Categorical* Choose one from : \code{'city'}, \code{'rural'}}
+\item{region}{\emph{Categorical} Choose one from : \code{'city'}, \code{'rural'}}
 
-\item{road}{*Categorical* Choose one from : \code{'general'}, \code{'highway'}}
+\item{road}{\emph{Categorical} Choose one from : \code{'general'}, \code{'highway'}}
 
-\item{lane}{*Numeric* The number of lane. It should \code{2} or \code{4} or more.}
+\item{lane}{\emph{Numeric} The number of lane. It should \code{2} or \code{4} or more.}
 }
 \description{
 This function calculates the Peak Directional Design Hourly Volume(PDDHV, vph) for a given road and traffic condition.

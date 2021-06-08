@@ -13,15 +13,15 @@ LOS_2lane_road(
 )
 }
 \arguments{
-\item{type}{*Categorical* Type of the 2-lane road. Choose one from : \code{'type_1'}, \code{'type_2'}}
+\item{type}{\emph{Categorical} Type of the 2-lane road. Choose one from : \code{'type_1'}, \code{'type_2'}}
 
-\item{free_speed}{*Categorical* kph. Choose one from : \code{100}, \code{90}, \code{80}}
+\item{free_speed}{\emph{Categorical} kph. Choose one from : \code{100}, \code{90}, \code{80}}
 
-\item{speed}{*Numeric* It means speed(kph)}
+\item{speed}{\emph{Numeric} It means speed(kph)}
 
-\item{TDR}{*Numeric* Total delay rate(%). see TDR()}
+\item{TDR}{\emph{Numeric} Total delay rate(\%). see TDR()}
 
-\item{V}{*Numeric* Traffic Volume(pcph)}
+\item{V}{\emph{Numeric} Traffic Volume(pcph)}
 }
 \description{
 This function decides Level of Service(LOS). It follows <Table 7-2>

@@ -14,17 +14,17 @@ D_avg_weaving(
 )
 }
 \arguments{
-\item{V}{*Numeric* Total traffic volume of the weaving section(pcph). Input values should be transformed to peak-hour's(including heavy vehicle's influence)}
+\item{V}{\emph{Numeric} Total traffic volume of the weaving section(pcph). Input values should be transformed to peak-hour's(including heavy vehicle's influence)}
 
-\item{V_w}{*Numeric* Weaving traffic volume(pcph) Input values should be transformed to peak-hour's(including heavy vehicle's influence)}
+\item{V_w}{\emph{Numeric} Weaving traffic volume(pcph) Input values should be transformed to peak-hour's(including heavy vehicle's influence)}
 
-\item{V_nw}{*Numeric* Non-weaving traffic volume(pcph) Input values should be transformed to peak-hour's(including heavy vehicle's influence)}
+\item{V_nw}{\emph{Numeric} Non-weaving traffic volume(pcph) Input values should be transformed to peak-hour's(including heavy vehicle's influence)}
 
-\item{S_w}{*Numeric* Average Speed of Weaving Traffic Flow in Freeway Weaving Section(S_w, kph)}
+\item{S_w}{\emph{Numeric} Average Speed of Weaving Traffic Flow in Freeway Weaving Section(S_w, kph)}
 
-\item{S_nw}{*Numeric* Average Speed of Non-Weaving Traffic Flow in Freeway Weaving Section(S_nw, kph)}
+\item{S_nw}{\emph{Numeric} Average Speed of Non-Weaving Traffic Flow in Freeway Weaving Section(S_nw, kph)}
 
-\item{N}{*Numeric* Total number of lanes in the weaving section}
+\item{N}{\emph{Numeric} Total number of lanes in the weaving section}
 }
 \description{
 This function calculates the average density in freeway weaving section.(pcpkmpl)

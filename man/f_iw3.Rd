@@ -7,9 +7,9 @@
 f_iw3(weather = NULL, precipitation = NULL)
 }
 \arguments{
-\item{weather}{*Categorical* Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}}
+\item{weather}{\emph{Categorical} Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}}
 
-\item{precipitation}{*Numeric* Rainfall or snowfall or hail (mm/h)}
+\item{precipitation}{\emph{Numeric} Rainfall or snowfall or hail (mm/h)}
 }
 \description{
 It follows <Table 8-28> in KHCM(2013)

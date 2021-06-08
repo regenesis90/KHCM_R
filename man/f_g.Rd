@@ -7,7 +7,7 @@
 f_g(gradient = NULL)
 }
 \arguments{
-\item{gradient}{%}
+\item{gradient}{\%}
 }
 \description{
 It follows <Table 8-16> in KHCM(2013)

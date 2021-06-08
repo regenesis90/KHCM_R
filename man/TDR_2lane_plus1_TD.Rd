@@ -2,7 +2,7 @@
 % Please edit documentation in R/TDR_2lane_plus1_TD.R
 \name{TDR_2lane_plus1_TD}
 \alias{TDR_2lane_plus1_TD}
-\title{Total Delay Rate Entire section in a 2+1 Lane Road(TDR_2lane_plus1_TD, %)}
+\title{Total Delay Rate Entire section in a 2+1 Lane Road(TDR_2lane_plus1_TD, \%)}
 \usage{
 TDR_2lane_plus1_TD(
   TDR_2lane_plus1_IN = NULL,
@@ -12,13 +12,13 @@ TDR_2lane_plus1_TD(
 )
 }
 \arguments{
-\item{TDR_2lane_plus1_IN}{*Numeric* TDR in the direction of progress}
+\item{TDR_2lane_plus1_IN}{\emph{Numeric} TDR in the direction of progress}
 
-\item{TDR_2lane_plus1_OUT}{*Numeric* TDR in opposite direction}
+\item{TDR_2lane_plus1_OUT}{\emph{Numeric} TDR in opposite direction}
 
-\item{L_IN}{*Numeric* Section length for analysis in the direction of progress(m)}
+\item{L_IN}{\emph{Numeric} Section length for analysis in the direction of progress(m)}
 
-\item{L_OUT}{*Numeric* Section length for analysis in the opposite direction(m)}
+\item{L_OUT}{\emph{Numeric} Section length for analysis in the opposite direction(m)}
 }
 \description{
 This function follows <Formula 7-14>

@@ -2,7 +2,7 @@
 % Please edit documentation in R/TDR.R
 \name{TDR}
 \alias{TDR}
-\title{Total Delay Rate(TDR, %)}
+\title{Total Delay Rate(TDR, \%)}
 \usage{
 TDR(
   method = NULL,
@@ -12,16 +12,16 @@ TDR(
 )
 }
 \arguments{
-\item{method}{*Categorical* Observation method. Choose one from : \code{'actual'}, \code{'theory'}}
+\item{method}{\emph{Categorical} Observation method. Choose one from : \code{'actual'}, \code{'theory'}}
 
-\item{travel_time_actual}{*Numeric* Values of Actual travel time(s). Input data : \code{c(num1, num2, ...)}. It's length must be same as travel_time_desired's.It would be used if \code{method = 'actual'}}
+\item{travel_time_actual}{\emph{Numeric} Values of Actual travel time(s). Input data : \code{c(num1, num2, ...)}. It's length must be same as travel_time_desired's.It would be used if \code{method = 'actual'}}
 
-\item{V_d}{*Numeric* Traffic Volume in direction(pc/lane). It would be used if \code{method = 'theory'}}
+\item{V_d}{\emph{Numeric} Traffic Volume in direction(pc/lane). It would be used if \code{method = 'theory'}}
 
-\item{travle_time_desired}{*Numeric* Values Desired Travel time(s). Input data : \code{c(num1, num2, ...)}. It's length must be same as travel_time_actual's. It would be used if \code{method = 'actual'}}
+\item{travle_time_desired}{\emph{Numeric} Values Desired Travel time(s). Input data : \code{c(num1, num2, ...)}. It's length must be same as travel_time_actual's. It would be used if \code{method = 'actual'}}
 }
 \description{
-This function calculates total delay rate(TDR, %). It follows <Formula 7-1> or <Formula 7-2>
+This function calculates total delay rate(TDR, \%). It follows <Formula 7-1> or <Formula 7-2>
 }
 \examples{
 TDR(method = 'actual', travel_time_actual = c(10, 20, 10, 14, 12), travel_time_desired = c(8, 15, 8, 7, 6))

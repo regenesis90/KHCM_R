@@ -9,7 +9,7 @@ LOS_arterial(free_speed = NULL, avg_speed = NULL)
 \arguments{
 \item{free_speed}{Choose one from: \code{80}, \code{70}, \code{60}}
 
-\item{avg_speed}{*Numeric* Average travel speed(kph)}
+\item{avg_speed}{\emph{Numeric} Average travel speed(kph)}
 }
 \description{
 It follows <Table 12-1> in KHCM(2013) p.529

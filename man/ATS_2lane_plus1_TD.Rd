@@ -12,13 +12,13 @@ ATS_2lane_plus1_TD(
 )
 }
 \arguments{
-\item{ATS_2lane_plus1_IN}{*Numeric* ATS in the direction of progress}
+\item{ATS_2lane_plus1_IN}{\emph{Numeric} ATS in the direction of progress}
 
-\item{ATS_2lane_plus1_OUT}{*Numeric* ATS in opposite direction}
+\item{ATS_2lane_plus1_OUT}{\emph{Numeric} ATS in opposite direction}
 
-\item{L_IN}{*Numeric* Section length for analysis in the direction of progress(m)}
+\item{L_IN}{\emph{Numeric} Section length for analysis in the direction of progress(m)}
 
-\item{L_OUT}{*Numeric* Section length for analysis in the opposite direction(m)}
+\item{L_OUT}{\emph{Numeric} Section length for analysis in the opposite direction(m)}
 }
 \description{
 This function follows <Formula 7-16>

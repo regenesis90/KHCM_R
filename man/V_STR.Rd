@@ -7,17 +7,17 @@
 V_STR(V_R = NULL, V_L = NULL, V_TH = NULL, E_R = NULL, E_L = NULL, N = NULL)
 }
 \arguments{
-\item{V_R}{*Numeric* Right Turn Traffic Volume(vph)}
+\item{V_R}{\emph{Numeric} Right Turn Traffic Volume(vph)}
 
-\item{V_L}{*Numeric* Left Turn Traffic Volume(vph)}
+\item{V_L}{\emph{Numeric} Left Turn Traffic Volume(vph)}
 
-\item{V_TH}{*Numeric* Straight-through traffic (vph)}
+\item{V_TH}{\emph{Numeric} Straight-through traffic (vph)}
 
-\item{E_R}{*Numeric* Forward conversion factor for right turn}
+\item{E_R}{\emph{Numeric} Forward conversion factor for right turn}
 
-\item{E_L}{*Numeric* Forward conversion factor for left turn}
+\item{E_L}{\emph{Numeric} Forward conversion factor for left turn}
 
-\item{N}{*Categorical* Total number of access lanes (excluding dedicated left-turn lanes). \code{1}, \code{2}, \code{3}, \code{4}, \code{5}, \code{6}}
+\item{N}{\emph{Categorical} Total number of access lanes (excluding dedicated left-turn lanes). \code{1}, \code{2}, \code{3}, \code{4}, \code{5}, \code{6}}
 }
 \description{
 This function follows <Formula 8-19>, <Formula 8-20> in KHCM(2013)

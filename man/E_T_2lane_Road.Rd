@@ -13,15 +13,15 @@ E_T_2lane_Road(
 )
 }
 \arguments{
-\item{topography}{*Categorical*  Choose one from : \code{'flatland'}, \code{'hill'}, \code{'specific_slope}}
+\item{topography}{\emph{Categorical}  Choose one from : \code{'flatland'}, \code{'hill'}, \code{'specific_slope}}
 
-\item{gradient}{*Numeric* If \code{topography = 'specific_slope'}, must use it. The gradient of slope.}
+\item{gradient}{\emph{Numeric} If \code{topography = 'specific_slope'}, must use it. The gradient of slope.}
 
-\item{L}{*Numeric* If \code{topography = 'specific_slope'}, must use it. The length of the slope.(m)}
+\item{L}{\emph{Numeric} If \code{topography = 'specific_slope'}, must use it. The length of the slope.(m)}
 
-\item{output}{*Categorical* Choose one from : \code{'travel_speed'}, \code{'TDR'}}
+\item{output}{\emph{Categorical} Choose one from : \code{'travel_speed'}, \code{'TDR'}}
 
-\item{V}{*Numeric* If \code{topography = 'specific_slope'}, must use it. Traffic Volume in direction(pcph?)}
+\item{V}{\emph{Numeric} If \code{topography = 'specific_slope'}, must use it. Traffic Volume in direction(pcph?)}
 }
 \description{
 This function follows <Table 7-4>, <Table 7-5>, <Table 7-6>, <Table 7-7> (p.177)

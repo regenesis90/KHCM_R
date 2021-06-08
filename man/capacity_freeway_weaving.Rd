@@ -13,15 +13,15 @@ capacity_freeway_weaving(
 )
 }
 \arguments{
-\item{design_speed}{*Categorical* Choose one from : \code{120}, \code{100}, \code{80} (kph)}
+\item{design_speed}{\emph{Categorical} Choose one from : \code{120}, \code{100}, \code{80} (kph)}
 
-\item{V}{*Numeric* Total traffic volume (pcph) of the weaving section}
+\item{V}{\emph{Numeric} Total traffic volume (pcph) of the weaving section}
 
-\item{V_w}{*Numeric* Weaving traffic volume(pcph)}
+\item{V_w}{\emph{Numeric} Weaving traffic volume(pcph)}
 
-\item{L}{*Numeric* Length of the weaving section(m)}
+\item{L}{\emph{Numeric} Length of the weaving section(m)}
 
-\item{N}{*Categorical* Total number of lanes in the weaving section. Choose one from : \code{3}, \code{4}, \code{5}}
+\item{N}{\emph{Categorical} Total number of lanes in the weaving section. Choose one from : \code{3}, \code{4}, \code{5}}
 }
 \description{
 This function decides The capacity of the weaving section between the main line and the connecting road(pcph). It follows <Table 3-2> in KHCM(2013).

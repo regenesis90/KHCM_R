@@ -7,13 +7,13 @@
 W_nw(V = NULL, V_w = NULL, N = NULL, L = NULL)
 }
 \arguments{
-\item{V}{*Numeric* Total traffic volume (pcph) of the weaving section}
+\item{V}{\emph{Numeric} Total traffic volume (pcph) of the weaving section}
 
-\item{V_w}{*Numeric* Weaving traffic volume(pcph)}
+\item{V_w}{\emph{Numeric} Weaving traffic volume(pcph)}
 
-\item{N}{*Numeric* Total number of lanes in the weaving section}
+\item{N}{\emph{Numeric} Total number of lanes in the weaving section}
 
-\item{L}{*Numeric* Length of the weaving section(m)}
+\item{L}{\emph{Numeric} Length of the weaving section(m)}
 }
 \description{
 This function calculates the weaving strength factor according to non-weaving traffic flow(W_nw)
