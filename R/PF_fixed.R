@@ -1,14 +1,14 @@
-#' Fixed time signal interlocking factor (PF)
+#' Fixed time signal interlocking factor (PF_fixed)
 #'
-#' This function follows <Table 8-17> in KHCM(2013)
+#' This function follows <Table 8-17>, <12-8> in KHCM(2013) p.541
 #' @param TVO
 #' @param g_c_ratio
 #' @keywords
-#' @export PF Fixed time signal interlocking factor (PF)
+#' @export PF_fixed Fixed time signal interlocking factor (PF)
 #' @examples
-#' PF(TVO = 0.4, g_c_ratio = 0.42)
-#' PF(0.5, 0.2223)
-PF <- function(TVO = NULL, g_c_ratio= NULL){
+#' PF_fixed(TVO = 0.4, g_c_ratio = 0.42)
+#' PF_fixed(0.5, 0.2223)
+PF_fixed <- function(TVO = NULL, g_c_ratio= NULL){
   if (TVO == 0){
     if (g_c_ratio > 0 & g_c_ratio < 0.1){pf <- 1.04 + (0.86 - 1.04)/0.1 * (g_c_ratio - 0.1)}
     if (g_c_ratio == 0.1){pf <- 1.04}

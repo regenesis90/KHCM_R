@@ -1,6 +1,6 @@
 #' Uniform delay(d_1)
 #'
-#' It follows <Formula 8-47>, <Formula 8-48>, <Formula 8-49> in KHCM(2013)
+#' It follows <Formula 8-47>, <Formula 8-48>, <Formula 8-49>, <Formula 12-3> in KHCM(2013)
 #' @param type *Categorical* Choose one from : \code{1}, \code{2}, \code{3}
 #' @param Q_b Initial number of waiting vehicles (units)
 #' @param C Signal period(seconds)
