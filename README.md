@@ -166,6 +166,16 @@
 * `T_others`
 * `avg_speed_total`
 ### 대중교통
+* `LOS_bus_seat`
+* `LOS_bus_standing`
+* `LOS_bus_interval`
+* `LOS_bus_time`
+* `t_D`
+* `n_bus_stopping_area`
+* `c_b`
+* `r_coefficient`
+* `N_bus_using_efficiency`
+* `c_p_b`
 ### 보행자 시설
 ### 자전거도로
 
