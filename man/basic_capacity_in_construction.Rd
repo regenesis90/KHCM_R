@@ -7,7 +7,7 @@
 basic_capacity_in_construction(design_speed = NULL)
 }
 \arguments{
-\item{design_speed}{\emph{Categorical} Choose one from : \code{120}, \code{100}, \code{80} (kph)}
+\item{design_speed}{*Categorical* Choose one from : \code{120}, \code{100}, \code{80} (kph)}
 }
 \description{
 This function decides Basic capacity of construction section by design speed(pcphpl). The contents of <Table 2-7> of KHCM(2013) were reflected.

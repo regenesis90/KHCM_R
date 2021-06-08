@@ -7,15 +7,15 @@
 S_avg_weaving(V = NULL, V_w = NULL, V_nw = NULL, S_w = NULL, S_nw = NULL)
 }
 \arguments{
-\item{V}{\emph{Numeric} Total traffic volume of the weaving section(pcph)}
+\item{V}{*Numeric* Total traffic volume of the weaving section(pcph)}
 
-\item{V_w}{\emph{Numeric} Weaving traffic volume(pcph)}
+\item{V_w}{*Numeric* Weaving traffic volume(pcph)}
 
-\item{V_nw}{\emph{Numeric} Non-weaving traffic volume(pcph)}
+\item{V_nw}{*Numeric* Non-weaving traffic volume(pcph)}
 
-\item{S_w}{\emph{Numeric} Average Speed of Weaving Traffic Flow in Freeway Weaving Section(S_w, kph)}
+\item{S_w}{*Numeric* Average Speed of Weaving Traffic Flow in Freeway Weaving Section(S_w, kph)}
 
-\item{S_nw}{\emph{Numeric} Average Speed of Non-Weaving Traffic Flow in Freeway Weaving Section(S_nw, kph)}
+\item{S_nw}{*Numeric* Average Speed of Non-Weaving Traffic Flow in Freeway Weaving Section(S_nw, kph)}
 }
 \description{
 This function calculates the average speed in freeway weaving section.(kph)

@@ -15,19 +15,19 @@ f_hv(
 )
 }
 \arguments{
-\item{topography}{\emph{String} Choose one from : \code{'flatland'}, \code{'hill'}, \code{'mountain'}, \code{'specific_slope}}
+\item{topography}{*String* Choose one from : \code{'flatland'}, \code{'hill'}, \code{'mountain'}, \code{'specific_slope}}
 
-\item{prop_small_hv}{\emph{Numeric} The ratio of small heavy vehicle composition(Trucks less than 2.5 tons, buses less than 16 passengers)}
+\item{prop_small_hv}{*Numeric* The ratio of small heavy vehicle composition(Trucks less than 2.5 tons, buses less than 16 passengers)}
 
-\item{prop_middle_hv}{\emph{Numeric} The ratio of middle heavy vehicle composition(Trucks of 2.5 tons or more, buses with 16 passengers or more)}
+\item{prop_middle_hv}{*Numeric* The ratio of middle heavy vehicle composition(Trucks of 2.5 tons or more, buses with 16 passengers or more)}
 
-\item{prop_large_hv}{\emph{Numeric} The ratio of large heavy vehicle composition(Semi trailer or full trailer)}
+\item{prop_large_hv}{*Numeric* The ratio of large heavy vehicle composition(Semi trailer or full trailer)}
 
-\item{prop_hv}{\emph{Numeric} The ratio of heavy vehicles.}
+\item{prop_hv}{*Numeric* The ratio of heavy vehicles.}
 
-\item{slope}{\emph{Numeric} Slope rate(\%)}
+\item{slope}{*Numeric* Slope rate(%)}
 
-\item{slope_length}{\emph{Numeric} The length of the slope(km)}
+\item{slope_length}{*Numeric* The length of the slope(km)}
 }
 \description{
 This function calculates Heavy Vehicle Factors(f_hv) by geographical features in basic freeway section.

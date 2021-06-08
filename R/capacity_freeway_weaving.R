@@ -7,7 +7,7 @@
 #' @param L *Numeric* Length of the weaving section(m)
 #' @param N *Categorical* Total number of lanes in the weaving section. Choose one from : \code{3}, \code{4}, \code{5}
 #' @keywords capacity weaving section freeway main line link
-#' @export capacity_freeway_weaving The capacity of the weaving section between the main line and the connecting road(pcph)
+#' @export cap The capacity of the weaving section between the main line and the connecting road(pcph)
 #' @examples
 capacity_freeway_weaving <- function(design_speed = NULL, V = NULL, V_w = NULL, L = NULL, N = NULL){
   if (V_w > 0 & V > 0 & L > 0 & N > 0){
@@ -275,4 +275,3 @@ capacity_freeway_weaving <- function(design_speed = NULL, V = NULL, V_w = NULL, 
     cap
   }
 }
-capacity_freeway_weaving(design_speed = 120, V = 80, V_w = 74, L = 200, N = 3)

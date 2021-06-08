@@ -7,13 +7,13 @@
 f_w(obstacle = NULL, lateral_clearance = NULL, lane = NULL, lane_width = NULL)
 }
 \arguments{
-\item{obstacle}{\emph{Categorical} Choose one from :\code{'one_side'}, \code{'both_sides'}}
+\item{obstacle}{*Categorical* Choose one from :\code{'one_side'}, \code{'both_sides'}}
 
-\item{lateral_clearance}{\emph{Numeric} The lateral clearance of lane. From the center line of the center line to the pavement edge of the lane. The Average of left lateral clearance and right lateral clearance.}
+\item{lateral_clearance}{*Numeric* The lateral clearance of lane. From the center line of the center line to the pavement edge of the lane. The Average of left lateral clearance and right lateral clearance.}
 
-\item{lane}{\emph{Numeric} The number of freeway lane(Round-trip lane). It must be 4 or more.}
+\item{lane}{*Numeric* The number of freeway lane(Round-trip lane). It must be 4 or more.}
 
-\item{lane_width}{\emph{Numeric} The width of each lane(m). It must be more than 2.75}
+\item{lane_width}{*Numeric* The width of each lane(m). It must be more than 2.75}
 }
 \description{
 This function calculates the one side lane width and lateral clearance factor(f_w) in given conditions.

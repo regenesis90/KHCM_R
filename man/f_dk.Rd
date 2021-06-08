@@ -7,9 +7,9 @@
 f_dk(design_speed = NULL, day_night = NULL)
 }
 \arguments{
-\item{design_speed}{\emph{Categorical} Choos one from : \code{120}, \code{100}, \code{80}}
+\item{design_speed}{*Categorical* Choos one from : \code{120}, \code{100}, \code{80}}
 
-\item{day_night}{\emph{Categorical} Choose one from : \code{'day'}, \code{'night'}}
+\item{day_night}{*Categorical* Choose one from : \code{'day'}, \code{'night'}}
 }
 \description{
 This function decides the capacity calculation factor for the basic section of the freeway(f_dk).

@@ -7,17 +7,17 @@
 S_w(S_D = NULL, V = NULL, V_w = NULL, N = NULL, L = NULL)
 }
 \arguments{
-\item{S_D}{\emph{Numeric} Design speed of the main lane(kph)}
+\item{S_D}{*Numeric* Design speed of the main lane(kph)}
 
-\item{V}{\emph{Numeric} Total traffic volume (pcph) of the weaving section}
+\item{V}{*Numeric* Total traffic volume (pcph) of the weaving section}
 
-\item{V_w}{\emph{Numeric} Weaving traffic volume(pcph)}
+\item{V_w}{*Numeric* Weaving traffic volume(pcph)}
 
-\item{N}{\emph{Numeric} Total number of lanes in the weaving section}
+\item{N}{*Numeric* Total number of lanes in the weaving section}
 
-\item{L}{\emph{Numeric} Length of the weaving section(m)}
+\item{L}{*Numeric* Length of the weaving section(m)}
 
-\item{N_main}{\emph{Numeric} A Number of main lane in the weaving section}
+\item{N_main}{*Numeric* A Number of main lane in the weaving section}
 }
 \description{
 This function calculates the average speed of weaving traffic flow in freeway weaving section.(kph)

@@ -7,13 +7,13 @@
 DHV(AADT = NULL, region = NULL, road = NULL, lane = NULL)
 }
 \arguments{
-\item{AADT}{\emph{Numeric} Average Annual Daily Traffic(pc/day, vph)}
+\item{AADT}{*Numeric* Average Annual Daily Traffic(pc/day, vph)}
 
-\item{region}{\emph{Categorical} Choose one from : \code{'city'}, \code{'rural'}, \code{'tourist_area'}}
+\item{region}{*Categorical* Choose one from : \code{'city'}, \code{'rural'}, \code{'tourist_area'}}
 
-\item{road}{\emph{Categorical} Choose one from : \code{'general'}, \code{'highway'}}
+\item{road}{*Categorical* Choose one from : \code{'general'}, \code{'highway'}}
 
-\item{lane}{\emph{Numeric} The number of lane(round-trip). It should \code{2} or \code{4} or more.}
+\item{lane}{*Numeric* The number of lane(round-trip). It should \code{2} or \code{4} or more.}
 }
 \description{
 This function calculate Design Hour Volume(DHV).

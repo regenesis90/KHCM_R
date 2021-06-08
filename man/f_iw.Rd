@@ -7,11 +7,11 @@
 f_iw(design_speed = NULL, weather = NULL, precipitation = NULL)
 }
 \arguments{
-\item{design_speed}{\emph{Categorical} Choos one from : \code{120}, \code{100}, \code{80}}
+\item{design_speed}{*Categorical* Choos one from : \code{120}, \code{100}, \code{80}}
 
-\item{weather}{\emph{Categorical} Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}}
+\item{weather}{*Categorical* Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}}
 
-\item{precipitation}{\emph{Numeric} Rainfall or snowfall or hail (mm/h)}
+\item{precipitation}{*Numeric* Rainfall or snowfall or hail (mm/h)}
 }
 \description{
 This function decides the capacity calculation factor for the basic section of the freeway(f_dk).
