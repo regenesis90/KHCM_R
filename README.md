@@ -110,7 +110,7 @@
 * `d_2`
 * `d_3`
 * `TVO`
-* `PF`
+* `PF_`
 * `d_A`
 * `d_g`
 * `g_T`
@@ -156,6 +156,15 @@
 * `free_speed_arterial`
 * `roadside_friction_arterial`
 * `t_p_km_arterial`
+* `avg_speed_arterial`
+* `f_cw`
+* `capacity_arterial_road`
+* `PF_sensitive`
+* `t_p_km_arterial_central_bus_lane`
+* `avg_speed_segment`
+* `T_bus`
+* `T_others`
+* `avg_speed_total`
 ### 대중교통
 ### 보행자 시설
 ### 자전거도로
