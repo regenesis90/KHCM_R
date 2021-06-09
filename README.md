@@ -177,6 +177,9 @@
 * `N_bus_using_efficiency`
 * `c_p_b`
 ### 보행자 시설
+* `V_pedestrian`
+* `LOS_pedestrian`
+* `LOS_pedestrian_stair`
 ### 자전거도로
 
 ## *Contact*
