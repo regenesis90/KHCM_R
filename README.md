@@ -190,7 +190,15 @@
 * `TS`
 * `M_ped_cross`
 ### 자전거도로
-* `F_pass` (진행중)
-
+* `F_pass`
+* `F_meet`
+* `F_total`
+* `F_pass_b_p `
+* `F_meet_b_p`
+* `F_meet_p_b`
+* `F_total_b`
+* `F_total_p`
+* `d_bike`
+* `c_bike` (진행중)
 ## *Contact*
 * regenesis90@gmail.com
