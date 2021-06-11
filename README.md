@@ -180,6 +180,15 @@
 * `V_pedestrian`
 * `LOS_pedestrian`
 * `LOS_pedestrian_stair`
+* `LOS_pedestrian_waiting_space`
+* `LOS_pedestrian_signal_crosswalk`
+* `W_O`
+* `W_E`
+* `V_pedestrian_traffic_flow`
+* `d_P`
+* `t_ped_cross`
+* `TS`
+* `M_ped_cross`
 ### 자전거도로
 
 ## *Contact*
