@@ -16,6 +16,7 @@
 * `K` : 설계시간계수(Design Hourly Factor)
 * `DHV`: 설계시간교통량(Design Hourly Volume)
 * `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
+### 2. 고속도로 기본 구간
 * `PDDHV` : 
 * `f_hv`
 * `f_w`
@@ -24,7 +25,6 @@
 * `SFi`
 * `number_of_lanes_required`
 * `Vp`
-### 고속도로 기본 구간
 * `LOS_freeway_basic`
 * `capacity`
 
