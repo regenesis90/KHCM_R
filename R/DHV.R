@@ -1,39 +1,26 @@
 #' Design Hour Volume(DHV)
 #'
-#' This function calculate Design Hour Volume(DHV).
+#' Design Hourly Volume (DHV) is one of the hourly traffic volumes for design.
+#'     It is obtained by multiplying the Average Annual Daily Traffic (AADT) of the planned target year by the Design Hourly Factor (K).
+#'     It follows a formula in KHCM(2013) p.6
 #' @param AADT *Numeric* Average Annual Daily Traffic(pc/day, vph)
-#' @param region *Categorical* Choose one from : \code{'city'}, \code{'rural'}, \code{'tourist_area'}
-#' @param road *Categorical* Choose one from : \code{'general'}, \code{'highway'}
-#' @param lane *Numeric* The number of lane(round-trip). It should \code{2} or \code{4} or more.
+#' @param region *Categorical* Region type classification. Choose one from : \code{'urban'}, \code{'local'}, \code{'tourist_area'}
+#' @param road *Categorical* Road type. Choose one from : \code{'general'}(General national road), \code{'expressway'}(Expressway with more than 4 lanes)
+#' @param lane *Numeric* The number of round-trip lanes.. It should \code{2} or \code{4} or more.
+#' @param output *Categorical* Type of result value. \code{'max'}, \code{'min'}, \code{'mean'}
 #' @keywords DHV AADT Design Hour Factor
-#' @export DHV \code{AADT * K}. It means Design Hour Volume(DHV, pc/h/bidirectional)
+#' @export DHV \code{AADT * K}
 #' @examples
-#' DHV(AADT = 2000, region = 'tourist_area', road = 'highway', lane = 8)
-#' DHV(AADT = 1500, region = 'city', road = 'general', lane = 2)
-#' DHV(3000, 'city', 'general', 8)
-DHV <- function(AADT = NULL, region = NULL, road = NULL, lane = NULL){
-  if (AADT >= 0 & lane >=2){
-    if(region =='city'){
-      if(road == 'general'){
-        if(lane == 2){K <- 0.12}
-        if(lane >= 4){K <- 0.1}
-      }
-      if(road == 'highway'){K <- 0.1}
+#' DHV(AADT = 2000, region = 'urban', road = 'expressway', lane = 8, output = 'max')
+#' DHV(3000, 'urban', 'general', 6, 'mean')
+DHV <- function(AADT = NULL, region = NULL, road = NULL, lane = NULL, output = NULL){
+  k <- K(region = region, road = road, lane = lane, output = output)
+  if (is.numeric(k) == TRUE){
+    if (is.numeric(AADT) == TRUE){
+      dhv <- AADT * k
     }
-    if(region == 'rural'){
-      if(road == 'general'){
-        if(lane == 2){K <- 0.16}
-        if(lane >= 4){K <- 0.12}
-      }
-      if(road == 'highway'){K <- 0.14}
-    }
-    if(region == 'tourist_area'){
-      if(road == 'general'){
-        if(lane == 2){K <- 0.23}
-        if(lane >= 4){K <- 0.14}
-      }
-      if(road == 'highway'){K <- 0.14}
-    }
-    AADT*K
+    else{dhv <- 'Error : AADT is not numeric type. Please check AADT.'}
   }
+  else{dhv <- 'Error : Please check the argument to get K.'}
+  dhv
 }
