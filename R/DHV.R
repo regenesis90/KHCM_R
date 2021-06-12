@@ -9,7 +9,7 @@
 #' @param lane *Numeric* The number of round-trip lanes.. It should \code{2} or \code{4} or more.
 #' @param output *Categorical* Type of result value. \code{'max'}, \code{'min'}, \code{'mean'}
 #' @keywords DHV AADT Design Hour Factor
-#' @export DHV \code{AADT * K}
+#' @export DHV \code{AADT * K}. It means Design Hourly Volume(DHV, veh/h/bidirectional)
 #' @examples
 #' DHV(AADT = 2000, region = 'urban', road = 'expressway', lane = 8, output = 'max')
 #' DHV(3000, 'urban', 'general', 6, 'mean')

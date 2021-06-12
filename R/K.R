@@ -61,7 +61,7 @@ K <- function(region = NULL, road = NULL, lane = NULL, output = NULL){
       }
       else{k <- 'Error : The lane value must be 2 or more than 4.'}
     }
-    if(road == 'expressway'){
+    else if(road == 'expressway'){
       if (lane >= 4){
         if (output == 'mean'){k <- 0.14}
         else if (output == 'min'){k <- 0.09}
@@ -88,7 +88,7 @@ K <- function(region = NULL, road = NULL, lane = NULL, output = NULL){
       }
       else{'Error : The lane value must be 2 or more than 4.'}
     }
-    if(road == 'expressway'){
+    else if(road == 'expressway'){
       if (lane >= 4){
         if (output == 'mean'){k <- 0.14}
         else if (output == 'min'){k <- 0.09}
@@ -102,4 +102,3 @@ K <- function(region = NULL, road = NULL, lane = NULL, output = NULL){
   else{k <- 'Error : The region value must be one of "urban", "local", or "tourist_area".'}
   k
 }
-
