@@ -17,7 +17,7 @@
 DDHV <- function(AADT = NULL, region = NULL, road = NULL, lane = NULL, output_d = NULL, output_k = NULL){
   k <- K(region = region, road = road, lane = lane, output = output_k)
   if (is.numeric(k) == TRUE){
-    if (is.numeric(AADT) == TRUE){
+    if (is.numeric(AADT) == TRUE & AADT >= 0){
       dhv <- AADT * k
       d <- D_coe(region = region, output = output_d)
       if (is.numeric(d) == TRUE){

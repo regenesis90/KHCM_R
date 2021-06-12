@@ -16,7 +16,7 @@
 DHV <- function(AADT = NULL, region = NULL, road = NULL, lane = NULL, output = NULL){
   k <- K(region = region, road = road, lane = lane, output = output)
   if (is.numeric(k) == TRUE){
-    if (is.numeric(AADT) == TRUE){
+    if (is.numeric(AADT) == TRUE & AADT >= 0){
       dhv <- AADT * k
     }
     else{dhv <- 'Error : AADT is not numeric type. Please check AADT.'}
