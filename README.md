@@ -12,7 +12,7 @@
 > Update Soon
 
 ## *Functions*
-### 기본
+### 1. 개론
 * `K` : 설계시간계수
 * `DHV`: 설계시간교통량(Design Hourly Volume)
 * `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
