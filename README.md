@@ -1,9 +1,6 @@
 # KHCMinR : 도로용량편람(2013) R 패키지 개발 프로젝트
 ## *Introduction*
 
-![Fast car-bro-small](https://user-images.githubusercontent.com/75024126/119323940-312e7800-bcba-11eb-9ae4-f31789f1a463.png)
-
-
 * Ver. : 0.0.0.9000 (개발 중)
 * Starts at : 2021.05.22.
 * Participant : [Jimin Chae](https://github.com/regenesis90)
