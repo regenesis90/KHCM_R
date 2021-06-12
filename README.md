@@ -199,6 +199,13 @@
 * `F_total_b`
 * `F_total_p`
 * `d_bike`
-* `c_bike` (진행중)
+* `c_bike`
+* `f_w_bike`
+* `S_bike`
+* `avg_speed_bike`
+* `F_bike`
+* `LOS_bike_signal_intersection`
+* `LOS_bike_city_street`
+* `LOS_bike_default`
 ## *Contact*
 * regenesis90@gmail.com
