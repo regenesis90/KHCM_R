@@ -13,9 +13,10 @@
 
 ## *Functions*
 ### 기본
-* `DHV`
-* `DDHV`
-* `PDDHV`
+* `K` : 설계시간계수
+* `DHV`: 설계시간교통량(Design Hourly Volume)
+* `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
+* `PDDHV` : 
 * `f_hv`
 * `f_w`
 * `c_wz`
