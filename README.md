@@ -17,6 +17,7 @@
 * `DHV`: 설계시간교통량(Design Hourly Volume)
 * `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
 ### 2. 고속도로 기본 구간(Basic Section of Expressway)
+* `AADT` : 연평균 일교통량(Average Annual Daily Traffic Volume)
 * `PDDHV` : 첨두 설계시간 교통량(Peak Hour Directional Design Volume)
 * `f_hv` : 중차량계수(Heavy Vehicle Factor)
 * `f_w` : 차로폭 및 측방여유폭에 대한 보정계수
@@ -24,7 +25,8 @@
 * `f_dk` : 주야간 보정계수
 * `f_D` : 중방향계수(Directional Factor)
 * `capa_expwy_wz` : 공사구간 용량(공사 시 편도 차로 수, 차로폭 및 측방여유폭, 중차량 고려)
-* `capa_expwy_j` : 특수상황(공사구간, 날씨, 주야간)이 반영된 j설계속도인 고속도로구간의 용량
+* `capa_expwy_j_bt` : 특수상황(공사구간, 날씨, 주야간)이 반영된 j설계속도인 고속도로구간의 용량
+* `capa_expwy_j` : j 설계속도인 고속도로 구간의 용량(vph)
 * `capa_expwy_jw` : j 설계속도의 공사구간 기본 용량(pcphpl)
 * `flow_rate` : 교통류율(Flow rate)
 * `density` : 밀도(Density)
@@ -33,6 +35,7 @@
 * `SFi` : 서비스 교통류율(Service Flow Rate)
 * `N_required` : 결정된 수요 차로수(Number of lanes required)
 * `Vp` : 첨두시간 환산 교통량(Converted Peak Hour Volume)? 
+* `PHF` : 첨두시간계수(Peak Hour Factor)
 * `LOS_expwy_basic` : 고속도로 기본 구간의 서비스 수준(Level of Service in Expressway Basic Section)
 * `capa_expwy_basic` : 고속도로 기본구간의 기본 조건에서의 용량(Capacity, pcphpl)
 
