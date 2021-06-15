@@ -18,15 +18,21 @@
 * `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
 ### 2. 고속도로 기본 구간
 * `PDDHV` : 
-* `f_hv`
-* `f_w`
-* `c_wz`
-* `MSFi`
-* `SFi`
-* `number_of_lanes_required`
-* `Vp`
-* `LOS_freeway_basic`
-* `capacity`
+* `f_hv` : 중차량계수(Heavy Vehicle Factor)
+* `f_iw` : 날씨 보정계수
+* `f_dk` : 주야간 보정계수
+* `f_D` : 중방향계수(Directional Factor)
+* `capa_expwy_wz` : 공사구간 용량(
+* `capa_expwy_j` : 특수상황(공사구간, 날씨, 주야간)이 반영된 j설계속도인 고속도로구간의 용량
+* `flow_rate` : 교통류율(Flow rate)
+* `density` : 밀도(Density)
+* `v_c_ratio` : 교통량 대 용량비(V/C Ratio)
+* `MSFi` : 최대 서비스 교통류율(Maximum Service Flow Rate)
+* `SFi` : 서비스 교통류율(Service Flow Rate)
+* `N_required` : 결정된 수요 차로수(Number of lanes required)
+* `Vp` : 첨두시간 환산 교통량(Converted Peak Hour Volume)? 
+* `LOS_expwy_basic` : 
+* `capa_expwy_basic` : 
 
 ### 3. 고속도로 엇갈림 구간
 * `W_nw`
