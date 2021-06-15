@@ -1,34 +1,18 @@
-#' Peak Directional Design Hourly Volume(PDDHV, vph)
+#' Peak Directional Design Hourly Volume(PDDHV)
 #'
-#' This function calculates the Peak Directional Design Hourly Volume(PDDHV, vph) for a given road and traffic condition.
-#' @param AADT *Numeric* Average Annual Daily Traffic(pc/day, vph)
-#' @param region *Categorical* Choose one from : \code{'city'}, \code{'rural'}
-#' @param road *Categorical* Choose one from : \code{'general'}, \code{'highway'}
-#' @param lane *Numeric* The number of lane. It should \code{2} or \code{4} or more.
-#' @param PHF
+#' This function calculates Peak Directional Design Hourly Volume(PDDHV, vph) for a given road and traffic condition.
+#'     It follows <Formula 2-9> in KHCM(2013), p.31
+#' @param DDHV *Numeric* Directional Design Hourly Volume(DDHV, vph). See \code{\link{DDHV}}
+#' @param PHF *Numeric* Peak Hour Factor(PHF). See \code{\link{PHF}}
 #' @keywords PDDHF DDHV DHV AADT Directional Design Hourly Factor PHF
-#' @export DDHV \code{AADT * K * D}. It means Directional Design Hourly Volume(DDHV, pc/h/bidirectional)
+#' @export PDDHV \code{DDHV * PHF}
 #' @examples
-#' PDDHV(AADT = 1000, region = 'city', road = 'general', lane = 6, PHF = 0.98)
-#' PDDHV(1500, 'rural', 'highway', 8, 0.95)
-PDDHV <- function(AADT = NULL, region = NULL, road = NULL, lane = NULL, PHF = NULL){
-  if (AADT >= 0 & PHF >= 0){
-    if(region =='city'){
-      D <- 0.6
-      if(road == 'general'){
-        if(lane == 2){K <- 0.12}
-        if(lane >= 4){K <- 0.1}
-      }
-      if(road == 'highway'){K <- 0.1}
-    }
-    if(region == 'rural'){
-      D <- 0.65
-      if(road == 'general'){
-        if(lane == 2){K <- 0.16}
-        if(lane >= 4){K <- 0.12}
-      }
-      if(road == 'highway'){K <- 0.14}
-    }
-    AADT * K * D / PHF
+#' PDDHV(DDHV = 2132, PHF = 0.8)
+#' PDDHV(1829, 0.74)
+PDDHV <- function(DDHV = NULL, PHF = NULL){
+  if (DDHV >= 0 & PHF > 0){
+    if (PHF <= 1){DDHV / PHF}
+    else{'Error : PHF must be same or less than 1. Please check PHF value.'}
   }
+  else{'Error : DDHV and PHF must be positive. Please check their values.'}
 }
