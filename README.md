@@ -17,7 +17,7 @@
 * `DHV`: 설계시간교통량(Design Hourly Volume)
 * `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
 ### 2. 고속도로 기본 구간(Basic Section of Expressway)
-* `PDDHV` : 
+* `PDDHV` : 첨두 설계시간 교통량(Peak Hour Directional Design Volume)
 * `f_hv` : 중차량계수(Heavy Vehicle Factor)
 * `f_w` : 차로폭 및 측방여유폭에 대한 보정계수
 * `f_iw` : 날씨 보정계수
