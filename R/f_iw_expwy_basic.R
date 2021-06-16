@@ -1,15 +1,16 @@
-#' Capacity Calculation Correction Factor for Bad Weather Conditions in The Basic Section of The Freeway(f_iw)
+#' Correction Factor for Capacity Estimation in Case of Bad Weather in Basic Section of Expressway
 #'
-#' This function decides the capacity calculation factor for the basic section of the freeway(f_dk).
-#' @param design_speed *Categorical* Choos one from : \code{120}, \code{100}, \code{80}
-#' @param weather *Categorical* Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}
-#' @param precipitation *Numeric* Rainfall or snowfall or hail (mm/h)
-#' @export f_iw Capacity Calculation Correction Factor for Bad Weather Conditions in The Basic Section of The Freeway
+#' It is a coefficient indicating the effect of bad weather on traffic flow under basic road traffic conditions.
+#'     It follows <Table 2-11> in KHCM(2013), p.41.
+#' @param design_speed Design speed(kph). Choose one from : \code{120}, \code{100}, \code{80}
+#' @param weather Weather condition. Choose one from : \code{'sunny'}, \code{'rainy'}, \code{'snowy'}
+#' @param precipitation Rainfall or snowfall or hail (mm/h)
+#' @export f_iw
 #' @examples
-#' f_iw(design_speed = 80, weather = 'sunny')
-#' f_iw(design_speed = 100, weather = 'rainy', precipitation = 8)
-#' f_iw(120, 'snowy', 12)
-f_iw <- function(design_speed = NULL, weather = NULL, precipitation = NULL){
+#' f_iw_expwy_basic(design_speed = 80, weather = 'sunny')
+#' f_iw_expwy_basic(design_speed = 100, weather = 'rainy', precipitation = 8)
+#' f_iw_expwy_basic(120, 'snowy', 12)
+f_iw_expwy_basic <- function(design_speed = NULL, weather = NULL, precipitation = NULL){
   if (weather == "sunny"){f_iw <- 1.00}
   if (weather == "rainy"){
     if (design_speed == 80){
