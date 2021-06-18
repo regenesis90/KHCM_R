@@ -8,11 +8,11 @@
 #' @examples
 #' V_P_expwy_basic(1200, 0.98)
 #' V_P_expwy_basic(b = 1300, PHF = 0.93)
-V_P_expwy_basic <- function(b = NULL, PHF = NULL){
-  if (V > 0){
-    if (PHF >= 0 & PHF < 1){res <- b/PHF}
+V_P_expwy_basic <- function(v = NULL, PHF = NULL){
+  if (v > 0){
+    if (PHF >= 0 & PHF < 1){res <- v/PHF}
     else {res <- 'Error : [PHF] must be positive, and less than 1. Please check that. See [PHF_expwy_basic()].'}
   }
-  else {res <- 'Error : [V] must be positive(vph). Please check that. See [DDHV()].'}
+  else {res <- 'Error : [v] must be positive(vph). Please check that. See [DDHV()].'}
   res
 }

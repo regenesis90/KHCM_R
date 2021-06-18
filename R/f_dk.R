@@ -11,8 +11,8 @@
 #' f_dk(design_speed = 120, 'night')
 #' f_dk(80, 'night')
 f_dk <- function(design_speed = NULL, day_night = NULL){
-  if (day_night == "day"){f_dk <- 1.00}
-  else if (day_night == "night"){
+  if (day_night == 'day'){f_dk <- 1.00}
+  else if (day_night == 'night'){
     if (design_speed == 80){f_dk <- 0.97}
     else if (design_speed == 100){f_dk <- 0.93}
     else if (design_speed == 120){f_dk <- 0.91}

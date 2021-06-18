@@ -23,5 +23,5 @@ capa_expwy_basic_wz <- function(c_jw = NULL, N = NULL, f_w = NULL, f_hv = NULL){
     }
     else {'Error : [N] must be >= 1. Please check that.'}
   }
-  else {'Error : [c_jw] must be positive. Please check that. See [capa_expwy_basic_wz_jw()]'}
+  else {'Error : [c_jw] must be positive. Please check that. See [capa_expwy_basic_wz_j()]'}
 }
