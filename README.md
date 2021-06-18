@@ -24,21 +24,18 @@
 * `f_w_expwy_basic` : 고속도로 기본구간에서 차로폭 및 측방여유폭에 대한 보정계수
 * `f_iw_expwy_basic` : 고속도로 기본구간에서 날씨 보정계수
 * `f_dk` : 주야간 보정계수
-* `f_D` : 중방향계수(Directional Factor)
-* `capa_expwy_wz` : 공사구간 용량(공사 시 편도 차로 수, 차로폭 및 측방여유폭, 중차량 고려)
-* `capa_expwy_j_bt` : 특수상황(공사구간, 날씨, 주야간)이 반영된 j설계속도인 고속도로 기본구간의 용량
-* `capa_expwy_j` : j 설계속도인 고속도로 기본구간의 용량(vph)
-* `capa_expwy_jw` : j 설계속도의 공사구간 기본 용량(pcphpl)
-* `flow_rate` : 교통류율(Flow rate)
-* `density` : 밀도(Density)
-* `v_c_ratio` : 교통량 대 용량비(V/C Ratio)
-* `MSFi` : 최대 서비스 교통류율(Maximum Service Flow Rate)
-* `SFi` : 서비스 교통류율(Service Flow Rate)
+* `D_coe` : 중방향계수(Directional Factor)
+* `capa_expwy_basic_wz_jw` : j 설계속도의 공사구간 기본 용량(pcphpl)
+* `capa_expwy_basic_j` : j 설계속도인 고속도로 기본구간의 용량(pcphpl)
+* `capa_expwy_basic_wz` : 공사구간 용량(vph, 공사 시 편도 차로 수, 차로폭 및 측방여유폭, 중차량 고려)
+* `capa_expwy_basic` : 특수상황(공사구간, 날씨, 주야간)이 반영된 j설계속도인 고속도로 기본구간의 용량(vph)
+* `MSF_i` : 최대 서비스 교통류율(Maximum Service Flow Rate)
+* `SF_i` : 서비스 교통류율(Service Flow Rate)
 * `N_required` : 결정된 수요 차로수(Number of lanes required)
-* `Vp` : 첨두시간 환산 교통량(Converted Peak Hour Volume)? 
-* `PHF` : 첨두시간계수(Peak Hour Factor)
+* `V_P` : 첨두시간 환산 교통량(Converted Peak Hour Volume) 
+* `PHF_expwy_basic` : 고속도로 기본구간에서의 첨두시간계수(Peak Hour Factor)
 * `LOS_expwy_basic` : 고속도로 기본 구간의 서비스 수준(Level of Service in Expressway Basic Section)
-* `capa_expwy_basic` : 고속도로 기본구간의 기본 조건에서의 용량(Capacity, pcphpl)
+* `v_c_ratio` : 교통량 대 용량비(V/C Ratio)
 
 ### 3. 고속도로 엇갈림 구간
 * `W_nw`
