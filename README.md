@@ -37,6 +37,9 @@
 * `LOS_expwy_basic` : 고속도로 기본 구간의 서비스 수준(Level of Service in Expressway Basic Section)
 * `v_c_ratio` : 교통량 대 용량비(V/C Ratio)
 
+* `ANLYS_expwy_basic_LOS` : 고속도로 기본구간의 운영상태(서비스수준) 분석
+* `ANLYS_expwy_basic_when_expand` :  현재와 3년 이후의 기본구간 운영 상태 분석 및 확장 시기 결정(*** 미완성, 진행필요)
+
 ### 3. 고속도로 엇갈림 구간
 * `W_nw`
 * `W_w`
