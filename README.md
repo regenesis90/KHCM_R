@@ -53,9 +53,13 @@
 * `appl_expwy_wv` : 엇갈림 구간 속도 산출 시 적용가능성 판정 
 
 ### 4. 고속도로 연결로 접속부
-* `LOS_freeway_ramp_junction`
-* `influence_capacity_ramp_junction`
-* `analysis_constraint_freeway_ramp_junction`
+* `appl_expwy_rpjt` : 고속도로 연결로 접속부 서비스수준 분석 절차 진행여부 판정
+* `LOS_expwy_rpjt` : 고속도로 연결로 접속부의 서비스수준
+* `V_P_expwy_rpjt` : 고속도로 연결로 접속부 승용차 환산 첨두시간 교통량(pcph)
+* `P_FM_expwy_rpjt` : 합류부 영향권 비
+* `P_FD_expwy_rpjt` : 분류부 영향권 비
+* `D_MR_expwy_rpjt` : 고속도로 연결로 접속부 합류부의 영향권 밀도(pcpkmpl) 
+* `D_DR_expwy_rpjt` : 고속도로 연결로 접속부, 분류부의 영향권 밀도(pcpkmpl) 
 
 ### 5. 고속도로 종합 분석
 
