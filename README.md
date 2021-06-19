@@ -41,13 +41,17 @@
 * `ANLYS_expwy_basic_when_expand` :  현재와 3년 이후의 기본구간 운영 상태 분석 및 확장 시기 결정(*** 미완성, 진행필요)
 
 ### 3. 고속도로 엇갈림 구간
-* `W_nw`
-* `W_w`
-* `S_nw`
-* `S_w`
-* `D_avg_weaving`
-* `S_avg_weaving`
-* `LOS_freeway_weaving`
+* `VR_expwy_wv` : 엇갈림 교통량비
+* `W_expwy_wv_nw` : 비엇갈림 교통류에 따른 엇갈림 강도 계수
+* `W_expwy_wv_w` : 엇갈림 교통류에 따른 엇갈림 강도 계수
+* `S_expwy_wv_nw` : 엇갈림 구간에서 비엇갈림 교통류 평균속도(kph)
+* `S_expwy_wv_w` : 엇갈림 구간에서 엇갈림 교통류 평균속도(kph)
+* `S_expwy_wv` : 엇갈림 구간 내의 평균 속도(kph)
+* `D_expwy_wv` : 엇갈림 구간의 평균 밀도(pcpkmpl)
+* `LOS_expwy_wv_ramp` : 본선-연결로 엇갈림 구간의 서비스수준
+* `LOS_exwpy_wv_fr` : 연결로-연결로 엇갈림 구간의 서비스수준
+* `V_P_expwy_wv` : 첨두시간 승용차 교통량으로 환산된 엇갈림구간 교통량(pcph)
+* `appl_expwy_wv` : 엇갈림 구간 속도 산출 시 적용가능성 판정 
 
 ### 4. 고속도로 연결로 접속부
 * `LOS_freeway_ramp_junction`
