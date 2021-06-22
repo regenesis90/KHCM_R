@@ -54,10 +54,13 @@
 
 ### 4. 고속도로 연결로 접속부
 * `appl_expwy_rpjt` : 고속도로 연결로 접속부 서비스수준 분석 절차 진행여부 판정
+* `capa_expwy_rpjt` : 고속도로 연결로 접속부 용량(pcph)
+* `capa_expwy_rpjt_rp` : 고속도로 연결로 용량(pcph)
 * `LOS_expwy_rpjt` : 고속도로 연결로 접속부의 서비스수준
 * `V_P_expwy_rpjt` : 고속도로 연결로 접속부 승용차 환산 첨두시간 교통량(pcph)
 * `P_FM_expwy_rpjt` : 합류부 영향권 비
 * `P_FD_expwy_rpjt` : 분류부 영향권 비
+* `V_12_expwy_rpjt` : 고속도로 합류부 또는 분류부의 1~2차선 교통량(pcph)
 * `D_MR_expwy_rpjt` : 고속도로 연결로 접속부 합류부의 영향권 밀도(pcpkmpl) 
 * `D_DR_expwy_rpjt` : 고속도로 연결로 접속부, 분류부의 영향권 밀도(pcpkmpl) 
 
