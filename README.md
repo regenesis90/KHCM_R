@@ -16,7 +16,7 @@
 * `K` : 설계시간계수(Design Hourly Factor)
 * `DHV`: 설계시간교통량(Design Hourly Volume)
 * `DDHV` : 중방향 설계시간교통량(Directional Design Hourly Volume)
-### 2. 고속도로 기본 구간(Basic Section of Expressway)
+### 2. 고속도로 기본 구간(expwy_basic)
 * `AADT` : 연평균 일교통량(Average Annual Daily Traffic Volume)
 * `PDDHV` : 첨두 설계시간 교통량(Peak Hour Directional Design Volume)
 * `f_hv_expwy_basic` : 고속도로 기본구간에서의 중차량계수(Heavy Vehicle Factor)
@@ -32,14 +32,14 @@
 * `MSF_i` : 최대 서비스 교통류율(Maximum Service Flow Rate)
 * `SF_i` : 서비스 교통류율(Service Flow Rate)
 * `N_required` : 결정된 수요 차로수(Number of lanes required)
-* `V_P` : 첨두시간 환산 교통량(Converted Peak Hour Volume) 
+* `V_P_expwy_basic` : 첨두시간 환산 교통량(Converted Peak Hour Volume) 
 * `PHF_expwy_basic` : 고속도로 기본구간에서의 첨두시간계수(Peak Hour Factor)
 * `LOS_expwy_basic` : 고속도로 기본 구간의 서비스 수준(Level of Service in Expressway Basic Section)
 * `v_c_ratio` : 교통량 대 용량비(V/C Ratio)
 * `ANLYS_expwy_basic_LOS` : 고속도로 기본구간의 운영상태(서비스수준) 분석
 * `ANLYS_expwy_basic_when_expand` :  현재와 3년 이후의 기본구간 운영 상태 분석 및 확장 시기 결정(*** 미완성, 진행필요)
 
-### 3. 고속도로 엇갈림 구간
+### 3. 고속도로 엇갈림 구간(expwy_wv)
 * `VR_expwy_wv` : 엇갈림 교통량비
 * `W_expwy_wv_nw` : 비엇갈림 교통류에 따른 엇갈림 강도 계수
 * `W_expwy_wv_w` : 엇갈림 교통류에 따른 엇갈림 강도 계수
@@ -52,7 +52,7 @@
 * `V_P_expwy_wv` : 첨두시간 승용차 교통량으로 환산된 엇갈림구간 교통량(pcph)
 * `appl_expwy_wv` : 엇갈림 구간 속도 산출 시 적용가능성 판정 
 
-### 4. 고속도로 연결로 접속부
+### 4. 고속도로 연결로 접속부(expwy_rpjt)
 * `appl_expwy_rpjt` : 고속도로 연결로 접속부 서비스수준 분석 절차 진행여부 판정
 * `capa_expwy_rpjt` : 고속도로 연결로 접속부 용량(pcph)
 * `capa_expwy_rpjt_rp` : 고속도로 연결로 용량(pcph)
@@ -66,16 +66,25 @@
 
 ### 5. 고속도로 종합 분석
 
-### 6. 다차로도로
-* `F_B`
-* `F_H`
-* `F_A`
-* `F_S`
-* `F_V`
-* `capacity_multilane_road`
-* `LOS_multilane_road`
-* `B_multilane_road`
-* `H_multilane_road`
+### 6. 다차로도로(ml)
+* `type_ml` : 다차로도로 유형 구분
+* `F_wc_ml` : 차로폭 및 측방여유폭 속도 보정계수(kph)
+* `F_B_ml` : 평면선형 속도 보정계수(kph)
+* `F_H_ml` : 종단선형 속도 보정계수(kph)
+* `F_A_ml` : 유출입 지점수 속도 보정계수(kph)
+* `F_S_ml` : 신호등의 속도 보정계수(구간평균 교통량 500vphpl 이하시, kph)
+* `F_V_ml` : 교통량에 따른 속도 보정계수(구간평균 교통량 500vphpl 초과시, kph)
+* `capa_ml` : 다차로도로에서의 용량(pcph)
+* `LOS_ml` : 다차로도로의 서비스수준
+* `B_ml` : 평면선형 굴곡도
+* `H_ml` : 종단선형 경사도
+* `S_i_ml` : 전체 구간에 대한 서비스 수준 i의 경계값(평균통행속도, kph)
+* `S_t_ml` : 전체 구간, 전체 차량에 대한 평균 통행속도(kph)`
+* `BS_P_ml` : 기본 조건의 최대 통행속도(kph)
+* `S_P1_ml` : 평균 교통량이 500vphpl 이하에서 승용차가 낼 수 있는 최대 통행속도 평균(kph)
+* `S_P2_ml` : 평균 교통량이 500vphpl 이하에서 승용차의 평균 통행속도(kph)
+* `S_T2_ml` : 평균 교통량이 500vphpl 이하에서 중차량의 최대 통행속도(kph)
+* `S_ml` : 전체 차량(차종)에 대한 평균 통행속도(kph)
 ### 7. 2차로도로
 * `TDR`
 * `LOS_2lane_road`
