@@ -115,9 +115,33 @@ LOS_ml <- function(type = NULL, design_speed = NULL, v_c_ratio = NULL, speed = N
       }
       else {
         if (is.null(service_v) == FALSE){
-          if (g_c_ratio == 0.8){}
-          else if (g_c_ratio == 0.6){}
-          else if (g_c_ratio == 0.5){}
+          if (g_c_ratio == 0.8){
+            if (service_v >= 0 & service_v <= 350){LOS <- 'A'}
+            else if (service_v > 350 & service_v <= 800){LOS <- 'B'}
+            else if (service_v > 800 & service_v <= 1250){LOS <- 'C'}
+            else if (service_v > 1250 & service_v <= 1500){LOS <- 'D'}
+            else if (service_v > 1500 & service_v <= 1750){LOS <- 'E'}
+            #else if (service_v > 1750){LOS <- 'F'}
+            else {LOS <- '[service_v] must be >= 0 and <= 1750. Please check that.'}
+          }
+          else if (g_c_ratio == 0.6){
+            if (service_v >= 0 & service_v <= 250){LOS <- 'A'}
+            else if (service_v > 250 & service_v <= 600){LOS <- 'B'}
+            else if (service_v > 600 & service_v <= 900){LOS <- 'C'}
+            else if (service_v > 900 & service_v <= 1100){LOS <- 'D'}
+            else if (service_v > 1100 & service_v <= 1500){LOS <- 'E'}
+            #else if (service_v > 1500){LOS <- 'F'}
+            else {LOS <- '[service_v] must be >= 0 and <= 1500. Please check that.'}
+          }
+          else if (g_c_ratio == 0.5){
+            if (service_v >= 0 & service_v <= 200){LOS <- 'A'}
+            else if (service_v > 200 & service_v <= 500){LOS <- 'B'}
+            else if (service_v > 500 & service_v <= 800){LOS <- 'C'}
+            else if (service_v > 800 & service_v <= 950){LOS <- 'D'}
+            else if (service_v > 950 & service_v <= 1100){LOS <- 'E'}
+            #else if (service_v > 1100){LOS <- 'F'}
+            else {LOS <- '[service_v] must be >= 0 and <= 1100. Please check that.'}
+          }
           else {LOS <- 'Error : [g_c_ratio] must be one of 0.8, 0.6, 0.5. Please check that.'}
         }
         else {LOS <- 'Error : All necessary values are empty. Please check that.'}
