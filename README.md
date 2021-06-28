@@ -81,23 +81,23 @@
 * `S_i_ml` : 전체 구간에 대한 서비스 수준 i의 경계값(평균통행속도, kph)
 * `S_t_ml` : 전체 구간, 전체 차량에 대한 평균 통행속도(kph)`
 * `BS_P_ml` : 기본 조건의 최대 통행속도(kph)
-* `S_P1_ml` : 평균 교통량이 500vphpl 이하에서 승용차가 낼 수 있는 최대 통행속도 평균(kph)
-* `S_P2_ml` : 평균 교통량이 500vphpl 이하에서 승용차의 평균 통행속도(kph)
-* `S_T2_ml` : 평균 교통량이 500vphpl 이하에서 중차량의 최대 통행속도(kph)
-* `S_ml` : 전체 차량(차종)에 대한 평균 통행속도(kph)
+* `S_P1_ml` : 다차로도로에서 승용차가 낼 수 있는 최대 통행속도 평균(kph)
+* `S_P2_ml` : 다차로도로에서 승용차의 평균 통행속도(kph)
+* `S_T2_ml` : 다차로도로에서 중차량의 최대 통행속도(kph)
+* `S_TP_ml` : 전체 차량(차종)에 대한 평균 통행속도(kph)
 ### 7. 2차로도로
 * `TDR`
-* `LOS_2lane_road`
-* `ESL_2lane_road`
-* `PHF_2lane_road`
-* `E_T_2lane_Road`
+* `LOS_2l`
+* `ESL_2l`
+* `PHF_2l`
+* `E_T_2l`
 * `f_w_D`
 * `f_np`
 * `f_pl`
-* `TDR_2lane_plus1`
-* `ATS_2lane_plus1`
-* `TDR_2lane_plus1_TD`
-* `ATS_2lane_plus1_TD`
+* `TDR_2lp1`
+* `ATS_2lp1`
+* `TDR_2lp1_TD`
+* `ATS_2lp1_TD`
 ### 8. 신호교차로
 * `LOS_signalized_intersection`
 * `F_U`
