@@ -8,7 +8,7 @@
 #' @param P_hv The ratio of total heavy vehicles.
 #' @param slope Slope gradient(%)
 #' @param slope_length The length of the slope(km)
-#' @export f_hv Heavy Vehicle Factors(f_hv)
+#' @export f_hv_expwy_basic Heavy Vehicle Factors
 #' @details
 #'     Argument 'landform' means :
 #'     - \code{'flatland'} : Terrain in which heavy vehicles can travel at almost the same speed as passenger cars without being affected by terrain conditions in a combination of slope, flat alignment, and vertical alignment. Short slopes, typically less than 2%, are included.

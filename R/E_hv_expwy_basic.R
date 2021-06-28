@@ -2,9 +2,9 @@
 #'
 #' This function calculates Conversion factor for passenger cars on a specific slope section of a expressway.
 #'     It follows <Table 2-4> in KHCM(2013), p.27
-#' @param P_hv *Numeric* The percentaget of heavy vehicles(%).
-#' @param slope *Numeric* Slope rate(%).
-#' @param slope_length *Numeric* The length of the slope(km)
+#' @param P_hv The percentage of heavy vehicles(%).
+#' @param slope Slope rate(%).
+#' @param slope_length The length of the slope(km)
 #' @export E_hv Conversion factor for passenger cars on a specific slope section of a expressway.
 #' @examples
 #' E_hv_expwy_basic(P_hv = 32, slope = 3.1, slope_length = 2.8)
