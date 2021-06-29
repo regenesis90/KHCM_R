@@ -1,16 +1,17 @@
-#' Heavy Vehicle Correction Factor according to the Traffic Volume in the Direction(E_T)
+#' Heavy Vehicle Correction Factor according to the Traffic Volume in the Direction(TDR)
 #'
-#' This function follows <Table 7-4>, <Table 7-5>, <Table 7-6>, <Table 7-7> (p.177)
+#' Heavy vehicle correction factor according to the traffic bolume in the direction(TDR, %).
+#' This function follows <Table 7-6>, <Table 7-7>, <Table 7-9> in KHCM(2013), p.177-180.
 #' @param landform landform Choose one from : \code{'flatland'}, \code{'hill'}, \code{'specific_slope}
 #' @param slope If \code{landform = 'specific_slope'}, must use it. The gradient of slope(%). Choose one from : \code{0.07}, \code{0.06}, \code{0.05}, \code{0.04}, \code{0.03}
 #' @param v_d If \code{landform = 'specific_slope'}, must use it. Traffic volume in direction(vph)
 #' @param L If \code{landform = 'specific_slope'}, must use it. The length of the slope(m). Choose one from : \code{400}, \code{800}, \code{1600}, \code{2400}, \code{3200}, \code{4800}, \code{6400}
-#' @export E_T_D_2l Heavy Vehicle Correction Factor in 2-lane road
+#' @export E_T_D_2l Heavy Vehicle Correction Factor in 2-lane road(TDR, %)
 #' @examples
-#' E_T_2l(landform = 'flatland', v_d = 332)
-#' E_T_2l(landform = 'hill', v_d = 459)
-#' E_T_2l(landform = 'specific_slope', slope = 0.04, L = 1200, v_d = 838)
-E_T_2l <- function(landform = NULL, slope = NULL, L = NULL, v_d = NULL){
+#' E_T_D_2l(landform = 'flatland', v_d = 332)
+#' E_T_D_2l(landform = 'hill', v_d = 459)
+#' E_T_D_2l(landform = 'specific_slope', slope = 0.04, L = 1200, v_d = 838)
+E_T_D_2l <- function(landform = NULL, slope = NULL, L = NULL, v_d = NULL){
   if (landform == 'flatland'){
     if (v_d == 100){E_T <- 2.6}
     else if (v_d > 100 & v_d < 200){E_T <- 2.6 - 0.3 * (v_d - 100) * 0.01}
