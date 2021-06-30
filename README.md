@@ -85,7 +85,7 @@
 * `S_P2_ml` : 다차로도로에서 승용차의 평균 통행속도(kph)
 * `S_T2_ml` : 다차로도로에서 중차량의 최대 통행속도(kph)
 * `S_TP_ml` : 전체 차량(차종)에 대한 평균 통행속도(kph)
-### 7. 2차로도로
+### 7. 2차로도로(2l, 2lp1)
 * `type_2l` : 2차로도로의 유형 구분
 * `TDR_thr_2l` : 2차로도로의 총지체율(%) 추정
 * `LOS_2l` : 2차로도로의 서비스 수준
@@ -113,7 +113,7 @@
 * `ATS_21_i_2lp1` : 2+1차로도로 일방향 i개 구간의 통행속도(kph)
 * `ATS_TD_2lp1` : 2+1차로도로 구간의 양방향 통행속도(kph)
 * `f_s_2lp1` : 2+1차로도로 구간의 통행속도 보정계수
-### 8. 신호교차로
+### 8. 신호교차로(si)
 * `LOS_signalized_intersection`
 * `F_U`
 * `F_R`
@@ -162,18 +162,18 @@
 * `f_WZ`
 * `S_i_WZ`
 * `f_iw3`
-### 9. 연결로-일반도로 결합부
-* `LOS_diamond_interchange`
-* `L_Q`
-* `tau_0`
-* `tau_1`
-* `mu_B`
-* `mu_F`
-* `g_i_backtick_upstream`
-* `g_i_backtick_downstream`
-* `c_i_diamond_interchange`
-* `X_i_diamond_interchange`
-* `d_I`
+### 9. 연결로-일반도로 결합부(di)
+* `LOS_di`
+* `L_Q_di`
+* `tau_0_di`
+* `tau_1_di`
+* `mu_B_di`
+* `mu_F_di`
+* `g_i_up_di`
+* `g_i_dn_di`
+* `c_i_di`
+* `X_i_di`
+* `d_I_di`
 ### 10. 비신호교차로
 * `V_ci`
 * `t_c_x`
