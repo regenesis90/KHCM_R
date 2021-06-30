@@ -174,7 +174,7 @@
 * `c_i_di`
 * `X_i_di`
 * `d_I_di`
-### 10. 비신호교차로
+### 10. 비신호교차로(nsi)
 * `V_ci`
 * `t_c_x`
 * `t_f_x`
@@ -185,72 +185,72 @@
 * `d_nonsignaled_intersection`
 * `LOS_two_way_stop`
 * `LOS_uncontrolled_intersection`
-### 11. 회전교차로
-* `LOS_roundabout`
+### 11. 회전교차로(rab)
+* `LOS_rab`
 * `V_c_NB`
-* `c_roundabout`
+* `c_rab`
 * `f_p`
-* `Vp_i_roundabout`
-* `E_T_roundabout`
-* `f_hv_roundabout`
-* `V_i_pce`
-* `V_c_i_roundabout`
-### 12. 도시 및 교외 간선도로
-* `LOS_arterial`
-* `free_speed_arterial`
-* `roadside_friction_arterial`
-* `t_p_km_arterial`
-* `avg_speed_arterial`
+* `V_P_i_rab`
+* `E_T_rab`
+* `f_hv_rab`
+* `V_i_pce_rab`
+* `V_c_i_rab`
+### 12. 도시 및 교외 간선도로(artl)
+* `LOS_artl`
+* `free_speed_artl`
+* `roadside_friction_artl`
+* `t_p_km_artl`
+* `avg_speed_artl`
 * `f_cw`
-* `capacity_arterial_road`
-* `PF_sensitive`
+* `capacity_artl`
+* `PF_sensitive_artl`
 * `t_p_km_arterial_central_bus_lane`
-* `avg_speed_segment`
-* `T_bus`
-* `T_others`
-* `avg_speed_total`
-### 13. 대중교통
-* `LOS_bus_seat`
-* `LOS_bus_standing`
-* `LOS_bus_interval`
-* `LOS_bus_time`
-* `t_D`
-* `n_bus_stopping_area`
-* `c_b`
-* `r_coefficient`
-* `N_bus_using_efficiency`
-* `c_p_b`
-### 14. 보행자 시설
-* `V_pedestrian`
-* `LOS_pedestrian`
-* `LOS_pedestrian_stair`
-* `LOS_pedestrian_waiting_space`
-* `LOS_pedestrian_signal_crosswalk`
-* `W_O`
-* `W_E`
-* `V_pedestrian_traffic_flow`
+* `avg_speed_segment_artl`
+* `T_bus_artl`
+* `T_others_artl`
+* `avg_speed_total_artl`
+### 13. 대중교통(pt)
+* `LOS_bus_seat_pt`
+* `LOS_bus_standing_pt`
+* `LOS_bus_interval_pt`
+* `LOS_bus_time_pt`
+* `t_D_pt`
+* `n_bus_stopping_area_pt`
+* `c_b_pt`
+* `r_coe_pt`
+* `N_bus_using_efficiency_pt`
+* `c_p_b_pt`
+### 14. 보행자 시설(ped)
+* `V_ped`
+* `LOS_ped`
+* `LOS_ped`
+* `LOS_ped_waiting_space`
+* `LOS_ped_signal_crosswalk`
+* `W_O_ped`
+* `W_E_ped`
+* `V_ped_traffic_flow`
 * `d_P`
 * `t_ped_cross`
 * `TS`
 * `M_ped_cross`
-### 15. 자전거도로
-* `F_pass`
-* `F_meet`
-* `F_total`
-* `F_pass_b_p `
-* `F_meet_b_p`
-* `F_meet_p_b`
-* `F_total_b`
-* `F_total_p`
-* `d_bike`
-* `c_bike`
-* `f_w_bike`
-* `S_bike`
-* `avg_speed_bike`
-* `F_bike`
-* `LOS_bike_signal_intersection`
-* `LOS_bike_city_street`
-* `LOS_bike_default`
+### 15. 자전거도로(bk)
+* `F_pass_bk`
+* `F_meet_bk`
+* `F_total_bk`
+* `F_pass_b_p_bk `
+* `F_meet_b_p_bk`
+* `F_meet_p_b_bk`
+* `F_total_b_bk`
+* `F_total_p_bk`
+* `d_bk`
+* `c_bk`
+* `f_w_bk`
+* `S_bk`
+* `avg_speed_bk`
+* `F_bk`
+* `LOS_bk_signal_intersection`
+* `LOS_bk_city_street`
+* `LOS_bk_default`
 
 ## *Datasets*
 
