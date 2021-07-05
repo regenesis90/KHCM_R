@@ -234,19 +234,23 @@
 * `TS`
 * `M_ped_cross`
 ### 15. 자전거도로(bk)
-* `F_pass_bk`
-* `F_meet_bk`
-* `F_total_bk`
-* `F_pass_b_p_bk `
-* `F_meet_b_p_bk`
-* `F_meet_p_b_bk`
-* `F_total_b_bk`
-* `F_total_p_bk`
-* `d_bk` : 신호교차로(노상 자전거도로가 신호교차로에 의해 제어되는 곳, type4)의 자전거도로에서의 제어지체
+* `F_pass_type1_bk` : 자전거 전용도로(type1)에서 같은 방향으로 이동하는 자전거의 앞지르기 횟수(times/h)
+* `F_meet_type1_bk` : 양방향 자전거 전용도로(type1)에서 주행방향과 대향하여 주행하는 자전거 교통량에 의한 단위시간당 대면횟수(times/h)
+* `F_total_type1_bk` : 자전거 전용도로(type1)에서의 전체 상충횟수(times/h)
+* `F_pass_type2_bb_bk` : 자전거-보행자 겸용도로(type2)에서 자전거끼리의 앞지르기 횟수(times/h)
+* `F_pass_type2_bp_bk` : 자전거-보행자 겸용도로(type2)에서 자전거가 동일방향으로 보행하는 보행자를 앞지르기하는 횟수(times/h)
+* `F_pass_type2_pb_bk` : 자전거-보행자 겸용도로(type2)에서 보행자가 동일방향으로 주행하는 자전거에 앞지르기 당하는 횟수(times/h)
+* `F_meet_type2_bb_bk` : 자전거-보행자 겸용도로(type2)에서 자전거와 자전거 진행방향과 대향방향으로 진행하는 자전거와의 대면횟수(times/h)
+* `F_meet_type2_bp_bk` : 자전거-보행자 겸용도로(type2)에서 자전거와 자전거 진행방향과 대향방향으로 진행하는 보행자와의 대면횟수(times/h)
+* `F_meet_type2_pb_bk` : 자전거-보행자 겸용도로(type2)에서 자전거와 자전거 진행방향과 대향방향으로 진행하는 보행자와의 대면횟수를 보행자의 입장에서 본 것(times/h)
+* `F_total_type2_b_bk` : 자전거-보행자 겸용도로(type2)에서 자전거 시점의 전체 상충횟수(times/h)
+* `F_total_type2_p_bk` : 자전거-보행자 겸용도로(type2)에서 보행자 시점의 전체 상충횟수(times/h)
+* `F_pass_type3_bk` : 노상 자전거 기본구간(type3)에서 같은 방향으로 이동하는 자전거의 앞지르기 횟수(times/h)
+* `d_type4_bk` : 신호교차로(노상 자전거도로가 신호교차로에 의해 제어되는 곳, type4)의 자전거도로에서의 제어지체
 * `f_w_bk` : 자전거도로의 폭에 따른 포화교통류율 보정계수
 * `S_bk` : 자전거도로 포화교통류율(vph)
 * `capa_bk` : 자전거도로의 용량(vph)
-* `ATS_bk` : 도시가로상의 자전거도로(간선도로상에 설치된 노상자전거도로, type5)의 평균통행속도
+* `ATS_type5_bk` : 도시가로상의 자전거도로(간선도로상에 설치된 노상자전거도로, type5)의 평균통행속도
 * `LOS_type1_bk` : 자전거 전용도로(일방통행 또는 양방통행, type1)의  서비스 수준
 * `LOS_type2_bk` : 자전거-보행자 겸용도로(type2)의 서비스 수준
 * `LOS_type3_bk` : 노상 자전거 도로기본구간(type3)의 서비스 수준
