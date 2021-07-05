@@ -13,6 +13,8 @@
 #' @seealso \code{\link{F_pass_type2_bb_bk}}, \code{\link{F_pass_type2_bp_bk}}, \code{\link{F_meet_type2_bb_bk}}, \code{\link{F_meet_type2_bp_bk}}
 #' @export F_total_type2_b_bk Total number of conflicts on the bike-pedestrian road(type2) in cyclists view(times/h)
 #' @examples
+#' F_total_type2_b_bk(Q_bike_sm = 321, Q_bike_op = 142, Q_ped_sm = 88, Q_ped_op = 191, U_bike = 12.98, U_ped = 5.1, sd = 1.58)
+#' F_total_type2_b_bk(Q_bike_sm = 321, Q_bike_op = 142, Q_ped_sm = 88, Q_ped_op = 191)
 F_total_type2_b_bk <- function(Q_bike_sm = NULL, Q_bike_op = NULL, Q_ped_sm = NULL, Q_ped_op = NULL, U_bike = NULL, U_ped = NULL, sd = NULL){
   if (Q_bike_sm >= 0 & Q_bike_op >= 0){
     if (Q_ped_sm >= 0 & Q_ped_op >= 0){
@@ -24,7 +26,7 @@ F_total_type2_b_bk <- function(Q_bike_sm = NULL, Q_bike_op = NULL, Q_ped_sm = NU
           F_pass_bb <- F_pass_type2_bb_bk(Q_bike_sm = Q_bike_sm, U_bike = U_bike, sd = sd)
           F_pass_bp <- F_pass_type2_bp_bk(Q_ped_sm = Q_ped_sm, U_bike = U_bike, U_ped = U_ped)
           F_meet_bb <- F_meet_type2_bb_bk(Q_bike_op = Q_bike_op)
-          F_meet_bp <- F_meet_type2_bp_bk(Q_ped_sm = Q_ped_sm, U_bike = U_bike, U_ped = U_ped)
+          F_meet_bp <- F_meet_type2_bp_bk(Q_ped_op = Q_ped_op, U_bike = U_bike, U_ped = U_ped)
           f <- F_pass_bb + F_pass_bp + 0.5 * (F_meet_bb + F_meet_bp)
         }
         else {f <- 'Error : [U_bike], [U_ped], [sd] must be positive. Please check that.'}
@@ -35,4 +37,3 @@ F_total_type2_b_bk <- function(Q_bike_sm = NULL, Q_bike_op = NULL, Q_ped_sm = NU
   else {f <- 'Error : [Q_bike_sm], [Q_bike_op] must be positive(vph). Please check that.'}
   f
 }
-F_total_type2_b_bk(Q_bike_sm = 321, Q_bike_op = 142, Q_ped_sm = 88, Q_ped_op = 191, U_bike = 12.98, U_ped = 5.1, sd = 1.58)
