@@ -38,9 +38,9 @@ f_iw_expwy_basic <- function(design_speed = NULL, weather = NULL, precip = NULL)
   else if (weather == "snowy"){
     if (design_speed == 80){
       if (precip == 0){f_iw <- 1.00}
-      if (precip > 0 & precip < 5){f_iw <- 0.87}
-      if (precip >= 5 & precip < 10){f_iw <- 0.75}
-      if (precip >= 10){f_iw <- 0.67}
+      else if (precip > 0 & precip < 5){f_iw <- 0.87}
+      else if (precip >= 5 & precip < 10){f_iw <- 0.75}
+      else if (precip >= 10){f_iw <- 0.67}
       else {f_iw <- 'Error : [precip] must be positive. Please check that.'}
     }
     else if (design_speed == 100){

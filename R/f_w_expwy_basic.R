@@ -119,9 +119,9 @@ f_w_expwy_basic <- function(obs = NULL, side_clearance = NULL, lane = NULL, lane
       }
       else if (lane >= 6){
         if (lane_width >= 3.5){factor <- 0.96}
-        if (lane_width >= 3.25 & lane_width < 3.5){factor <- 0.92}
-        if (lane_width >= 3.00 & lane_width < 3.25){factor <- 0.85}
-        if (lane_width >= 2.75 & lane_width < 3.00){factor <- 0.75}
+        else if (lane_width >= 3.25 & lane_width < 3.5){factor <- 0.92}
+        else if (lane_width >= 3.00 & lane_width < 3.25){factor <- 0.85}
+        else if (lane_width >= 2.75 & lane_width < 3.00){factor <- 0.75}
         else {factor <- 'Error : [lane_width] must be eqal to or more than 2.75. Please check that'}
       }
       else {factor <- 'Error : [lane] must be 4 or 6 or more. Please check that.'}
