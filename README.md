@@ -242,15 +242,16 @@
 * `F_meet_p_b_bk`
 * `F_total_b_bk`
 * `F_total_p_bk`
-* `d_bk`
-* `c_bk`
-* `f_w_bk`
-* `S_bk`
-* `avg_speed_bk`
-* `F_bk`
-* `LOS_bk_signal_intersection`
-* `LOS_bk_city_street`
-* `LOS_bk_default`
+* `d_bk` : 신호교차로(노상 자전거도로가 신호교차로에 의해 제어되는 곳, type4)의 자전거도로에서의 제어지체
+* `f_w_bk` : 자전거도로의 폭에 따른 포화교통류율 보정계수
+* `S_bk` : 자전거도로 포화교통류율(vph)
+* `capa_bk` : 자전거도로의 용량(vph)
+* `ATS_bk` : 도시가로상의 자전거도로(간선도로상에 설치된 노상자전거도로, type5)의 평균통행속도
+* `LOS_type1_bk` : 자전거 전용도로(일방통행 또는 양방통행, type1)의  서비스 수준
+* `LOS_type2_bk` : 자전거-보행자 겸용도로(type2)의 서비스 수준
+* `LOS_type3_bk` : 노상 자전거 도로기본구간(type3)의 서비스 수준
+* `LOS_type4_bk` : 노상 신호교차로(type4)에서 자전거 이용자의 서비스 수준
+* `LOS_type5_bk` : 도시가로상의 자전거 도로(type5)의 자전거 이용자의 서비스 수준
 
 ## *Datasets*
 
