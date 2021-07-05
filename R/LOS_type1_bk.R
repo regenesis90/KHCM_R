@@ -3,7 +3,7 @@
 #' It derives Level of Service(LOS) for cyclist on bicycle-only road(type1)
 #'     * The traffic volume by LOS is the traffic volume corresponding to the number of conflicts obtained by assuming the average value of bicycle speed of 13.5 kph and standard deviation of 3 kph.
 #' It follows <Table 15-2>, <Table 15-5> in KHCM(2013), p.653-654.
-#' @param road \code{'one_way'}, \code{'bidirectional'}
+#' @param road \code{'one-way'}, \code{'bidirectional'}
 #' @param width \code{2}, \code{3}
 #' @param confl Number of conflict
 #' @param Q Bicycle Traffic (vph)
@@ -11,11 +11,11 @@
 #' @keywords Level of Service LOS cyclist bicycle road bicycle-only
 #' @export LOS_type1_bk
 #' @examples
-#' LOS_type1_bk(road = 'one_way', width = 2, Q = 642)
+#' LOS_type1_bk(road = 'one-way', width = 2, Q = 642)
 #' LOS_type1_bk(road = 'bidirectional', width = 3, confl = 324)
 #' LOS_type1_bk(road = 'bidirectional', width = 2, prop = 0.5, Q = 102)
 LOS_type1_bk <- function(road = NULL, width = NULL, confl = NULL, Q = NULL, prop = NULL){
-  if (road == 'one_way'){
+  if (road == 'one-way'){
     if (width == 2){
       if (is.null(confl) == FALSE){
         if (confl >= 0 & confl <= 25){los <- 'A'}
@@ -179,5 +179,6 @@ LOS_type1_bk <- function(road = NULL, width = NULL, confl = NULL, Q = NULL, prop
     }
     else {los <- 'Error : [width] must be one of 2, 3. Please check that.'}
   }
+  else {los <- 'Error : [road] must be one of [one-way] or [bidirectional]. Please check that.'}
   los
 }

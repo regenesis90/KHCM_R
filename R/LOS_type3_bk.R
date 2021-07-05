@@ -1,6 +1,6 @@
 #' Level of Service for Cyclist on Basic Section of City Road, Bicycle Path
 #'
-#' It derives Level of Service(LOS) for cyclist on basic section of city road, bicycle path.
+#' It derives Level of Service(LOS) for cyclist on basic section of city road, bicycle path(type3).
 #'     * A bicycle path installed in proximity to the road traffic lane and separated by road markings on the road(type3)
 #'     * The traffic volume by LOS is the traffic volume corresponding to the number of conflicts obtained by assuming the average value of bicycle speed of 13.5 kph and standard deviation of 3 kph.
 #'     * It follows <Table 15-2> ~ <Table 15-5> in KHCM(2013), p.653~654.
@@ -9,6 +9,7 @@
 #' @param Q Bicycle Traffic (vph)
 #' @param p_b Proportion of bicycle traffic in the direction of travel in total (bidirectional) bicycle traffic
 #' @keywords Level of service LOS cyclist bicycle pat city road
+#' @seealso \code{\link{F_pass_type3_bk}}
 #' @export LOS_type3_bk
 #' @examples
 #' LOS_type3_bk(width = 2, confl = 183)
