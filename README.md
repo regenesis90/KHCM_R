@@ -210,16 +210,16 @@
 * `T_others_artl`
 * `avg_speed_total_artl`
 ### 13. 대중교통(pt)
-* `LOS_bus_seat_pt`
-* `LOS_bus_standing_pt`
-* `LOS_bus_interval_pt`
-* `LOS_bus_time_pt`
-* `t_D_pt`
-* `n_bus_stopping_area_pt`
-* `c_b_pt`
-* `r_coe_pt`
-* `N_bus_using_efficiency_pt`
-* `c_p_b_pt`
+* `LOS_bus_pt` : 좌석형 또는 입석형 버스의 차내 서비스 수준
+* `LOS_sch_pt` : 버스 운행간격에 따른 지역별 서비스 수준
+* `LOS_svc_pt` : 버스 운영시간에 따른 서비스 수준
+* `t_D_pt` : 버스의 정차 시간(초)
+* `t_c_pt` : 버스의 총 소거 시간(초)
+* `t_ocp_pt` : 버스의 총 점유시간(초)
+* `R_pt` : 버스정류장 버스대기비율에 따른 정차면 용량 산출 보정계수
+* `ue_bs_pt` : 대한민국에서 버스정류장의 경험적 정차대수에 따른 이용효율계수
+* `capa_bs_bus_pt` : 연속류상 혹은 단속류상 버스정류장의 시간당 차량용량(대/시)
+* `capa_bs_png_pt` : 연속류상 혹은 단속류상 버스정류장의 시간당 사람용량(인/시)
 ### 14. 보행자 시설(ped)
 * `V_ped` : 보행자시설에서의 보행교통류율(인/분/m)
 * `LOS_road_ped` : 보행자도로에서 보행자 서비스 수준
