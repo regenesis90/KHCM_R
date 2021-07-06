@@ -221,18 +221,21 @@
 * `N_bus_using_efficiency_pt`
 * `c_p_b_pt`
 ### 14. 보행자 시설(ped)
-* `V_ped`
-* `LOS_ped`
-* `LOS_ped`
-* `LOS_ped_waiting_space`
-* `LOS_ped_signal_crosswalk`
-* `W_O_ped`
-* `W_E_ped`
-* `V_ped_traffic_flow`
-* `d_P`
-* `t_ped_cross`
-* `TS`
-* `M_ped_cross`
+* `V_ped` : 보행자시설에서의 보행교통류율(인/분/m)
+* `M_ped` : 보행자시설에서 보행자 1인당 점유공간(m^2/인)
+* `LOS_road_ped` : 보행자도로에서 보행자 서비스 수준
+* `LOS_stair_ped` : 계단에서의 보행자 서비스 수준
+* `LOS_wait_ped` : 대기공간에서의 보행자 서비스 수준
+* `LOS_cross_ped` : 신호횡단보도에서 보행자 서비스 수준
+* `W_O_ped` : 보행자도로에서 시설에 의해 방해를 받는 보도 폭(m)
+* `W_E_ped` : 보행자도로에서의 유효도로폭(m)
+* `V_P_ped` : 조사된 첨두 15분 보행교통량을 보행교통류율로 환산한 것. 첨두 환산 보행교통류율(인/분/m)
+* `d_p_ped` : 신호횡단보도에서 평균 보행자지체(초)
+* `t_ped` : 신호횡단보도에서 보행자의 총 횡단시간(초)
+* `TS_cross_ped` : 신호횡단보도에서 보행자의 시-공간 면적(m^2-인)
+* `T_cross_ped` : 신호횡단보도에서 보행자의 총 횡단보도 점유시간(인-초)
+* `M_cross_ped` : 신호횡단보도에서 보행자당 횡단보도 점유공간(m^2/인)
+* `W_E_plan_ped` : 보행자도로 계획 및 설계를 위한 유효도로폭(m) 
 ### 15. 자전거도로(bk)
 * `F_pass_type1_bk` : 자전거 전용도로(type1)에서 같은 방향으로 이동하는 자전거의 앞지르기 횟수(times/h)
 * `F_meet_type1_bk` : 양방향 자전거 전용도로(type1)에서 주행방향과 대향하여 주행하는 자전거 교통량에 의한 단위시간당 대면횟수(times/h)
