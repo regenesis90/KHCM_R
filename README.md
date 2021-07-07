@@ -212,10 +212,11 @@
 * `PF_fix_artl` : 간선도로에서의 고정신호 연동계수
 * `PF_rsp_artl` : 간선도로에서 감응신호의 연동계수
 * `t_p_km_arterial_central_bus_lane`
-* `avg_speed_segment_artl`
-* `T_bus_artl`
-* `T_others_artl`
-* `avg_speed_total_artl`
+* `t_trv_km_bus_artl` : 중앙버스전용차로가 설치된 간선도로에서, 중앙전용차로를 주행하는 버스의 km당 구간 순행시간(초/km)
+* `ATS_seg_bus_artl` : 중앙버스전용차로가 설치된 간선도로의 개별 분석구간별 평균통행속도(kph)
+* `T_trv_artl` : 중앙버스전용차로 또는 일반차로 분석구간의 통행시간(초)
+* `ATS_total_artl` : 중앙버스전용차로가 설치된 간선도로 분석구간 전체의 평균통행속도(kph)
+* `LOS_bus_artl` : 중앙버스전용차로가 설치된 간선도로의 서비스수준
 ### 13. 대중교통(pt)
 * `LOS_bus_pt` : 좌석형 또는 입석형 버스의 차내 서비스 수준
 * `LOS_sch_pt` : 버스 운행간격에 따른 지역별 서비스 수준
