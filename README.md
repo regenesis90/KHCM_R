@@ -196,14 +196,21 @@
 * `V_i_pce_rab`
 * `V_c_i_rab`
 ### 12. 도시 및 교외 간선도로(artl)
-* `LOS_artl`
-* `free_speed_artl`
-* `roadside_friction_artl`
-* `t_p_km_artl`
-* `avg_speed_artl`
-* `f_cw`
-* `capacity_artl`
-* `PF_sensitive_artl`
+* `type_artl` : 도로구분과 도로여건에 따른 간선도로 유형
+* `LOS_artl` : 간선도로의 평균 통행속도(kph)별 서비스수준
+* `ATS_artl` : 간선도로의 전체 또는 일부 구간의 평균통행속도(kph)
+* `friction_artl` : 간선도로에서 노변마찰의 정도 설정 기준
+* `t_trv_km_artl` : 간선도로의 전체 또는 일부 구간의 평균통행속도(kph)
+* `d_artl` : 간선도로에서 차량당 평균제어지체(초/대)
+* `d_1_artl` : 간선도로에서 연동보정된 균일제어지체(초/대)
+* `d_2_artl` : 간선도로에서 임의 도착과 과포화를 나타내는 증분지체
+* `d_3_artl` : 간선도로에서의 추가지체(초/대) 
+* `f_cw_artl` : 간선도로에서 신호교차로 간 보행자 횡단신호 보정계수
+* `V_P_artl` : 간선도로에서 첨두시간으로 보정된 첨두시간 교통류율(vph)
+* `capa_plan_artl` : 간선도로에서 개략적인 값이 필요하거나, 간선도로 계획 시에 한정하여 구하는 용량 값(vph)
+* `TVO_artl` : 간선도로에서의 옵셋 편의율
+* `PF_fix_artl` : 간선도로에서의 고정신호 연동계수
+* `PF_rsp_artl` : 간선도로에서 감응신호의 연동계수
 * `t_p_km_arterial_central_bus_lane`
 * `avg_speed_segment_artl`
 * `T_bus_artl`
