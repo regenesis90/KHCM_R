@@ -175,16 +175,16 @@
 * `X_i_di`
 * `d_I_di`
 ### 10. 비신호교차로(nsi)
-* `V_ci`
-* `t_c_x`
-* `t_f_x`
-* `c_p_x`
-* `p_i_nonsignalize_intersection`
-* `V_i_per_c_pi`
-* `c_SH`
-* `d_nonsignaled_intersection`
-* `LOS_two_way_stop`
-* `LOS_uncontrolled_intersection`
+* `V_c_i_nsi` : 비신호교차로의 상충교통류(★★★)
+* `t_c_x_nsi` : 비신호교차로 중 양방향정지 교차로(type1)의 이동류 x에 대한 임계간격(초)
+* `t_f_x_nsi` : 비신호교차로 중 양방향정지 교차로(type2)의 이동류 x에 대한 추종시간(초)
+* `capa_p_x_nsi` : 비신호교차로의 이동류 x별 잠재용량(pcph)
+* `x_nsi` : 비신호교차로에서 각 이동류의 수요에 따른 용량비
+* `p_nsi` : 비신호교차로에서 방해이동류에 따른 저항계수
+* `capa_SH_nsi` : 비신호교차로 중 양방향 정지 교차로(type2)에서 차로배분을 고려한 용량(pcph)
+* `d_x_nsi` : 비신호교차로에서 각 이동류 x에 대한 운영지체
+* `LOS_type2_nsi` : 비신호교차로 중 양방향정지 교차로(type2)의 서비스 수준
+* `LOS_type1_nsi` : 비신호교차로 중 무통제교차로(type1)의 서비스 수준
 ### 11. 회전교차로(rab)
 * `V_c_NB_rab` : 회전교차로에서 북방향 진입접근로의 진입교통량에 따른 상충교통량(vph)
 * `LOS_rab` : 회전교차로의 서비스 수준
