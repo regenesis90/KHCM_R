@@ -186,14 +186,14 @@
 * `LOS_two_way_stop`
 * `LOS_uncontrolled_intersection`
 ### 11. 회전교차로(rab)
-* `LOS_rab`
-* `V_c_NB`
-* `c_rab`
-* `f_p`
-* `V_P_i_rab`
-* `E_T_rab`
-* `f_hv_rab`
-* `V_i_pce_rab`
+* `V_c_NB_rab` : 회전교차로에서 북방향 진입접근로의 진입교통량에 따른 상충교통량(vph)
+* `LOS_rab` : 회전교차로의 서비스 수준
+* `capa_rab` : 회전교차로 진입로 용량
+* `f_p_rab` : 회전교차로에서 횡단 보행자 영향계수
+* `V_P_i_rab` : 회전교차로 i진입로의 첨두시 교통량(vph)
+* `V_i_pce_rab` : 회전교차로에서 i 진입로의 교통량(pcph)
+* `E_T_rab` : 회전교차로에서 중차량의 승용차 환산계수
+* `f_hv_rab` : 회전교차로에서 중차량의 승용차 환산계수
 * `V_c_i_rab`
 ### 12. 도시 및 교외 간선도로(artl)
 * `type_artl` : 도로구분과 도로여건에 따른 간선도로 유형
