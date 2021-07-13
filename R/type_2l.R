@@ -5,7 +5,7 @@
 #' @param si_density Signal Intersection Density(ea/km)
 #' @keywords 2-lane road
 #' @seealso \code{\link{capa_2l}}
-#' @export type_ml \code{'type1'}, \code{'type2'}, \code{'type3'}
+#' @export type_2l \code{'type1'}, \code{'type2'}, \code{'type3'}
 #' @details - type1 : High standard roads such as highways. It is a two-lane road with continuous flow characteristics.
 #'          - Type2: A general road with more than 0.5 signal intersections/km and an interval of 2 km or more between signal intersections. Roadside development is insufficient, and continuous and intermittent flow characteristics are mixed.
 #'          - Type3: General roads with less than 0.5 signal intersections/km and less than 2 km between signal intersections. The area around the road has been developed and has intermittent flow characteristics. (* Analysis by the method of urban and suburban arterial roads)
