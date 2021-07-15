@@ -1,6 +1,6 @@
-#' Straight-through Traffic Volume Using Public Right-turn Lanes at Signalized Intersection
+#' Straight-through Traffic Volume Using Shared Right-turn Lanes at Signalized Intersection
 #'
-#' Straight-through traffic volume(vph) using public right-turn lanes at signalized intersection.
+#' Straight-through traffic volume(vph) using shared right-turn lanes at signalized intersection.
 #'     This function follows <Formula 8-19>, <Formula 8-20> in KHCM(2013), p.240.
 #' @param case Case of signalized intersection. Choose one from: \code{'case1'}, \code{'case2'}, \code{'case3'}, \code{'case4'}, \code{'case5'}, \code{'case6'}. See \code{\link{case_si}}
 #' @param V_R Right Turn Traffic Volume(vph)

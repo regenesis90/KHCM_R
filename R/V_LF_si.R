@@ -1,6 +1,6 @@
-#' Traffic Going Straight Ahead of the First Left Turn on the Public Left Turn Lane at Signalized Intersection
+#' Traffic Going Straight Ahead of the First Left Turn on the Shared Left Turn Lane at Signalized Intersection
 #'
-#' Traffic going straight ahead of the first left turn on the public left turn lane at the signal intersection
+#' Traffic going straight ahead of the first left turn on the shared left turn lane at the signal intersection
 #'     when 'case4', 'case5', 'case6'.
 #'     This function follows <Formula 8-13>, <Formula 8-14> in KHCM(2013), p.239.
 #' @param case Case of signalized intersection. Choose one from: \code{'case4'}, \code{'case5'}, \code{'case6'}. See \code{\link{case_si}}
@@ -9,7 +9,7 @@
 #' @param C Signal cycle(seconds)
 #' @param N Total number of access lanes (excluding dedicated left-turn lanes).
 #' @keywords traffic going straight left turn public lane signalized intersection
-#' @seealso \code{\link{lane_group_si}}
+#' @seealso \code{\link{lane_group_si}}, \code{\link{P_L_pd_si}}
 #' @export V_LF_si
 #' @examples
 #' V_LF_si(case = 'case5', V_L = 304, V_TH = 999, C = 194, N = 3)

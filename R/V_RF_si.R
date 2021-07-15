@@ -1,6 +1,6 @@
-#' Traffic Going Straight Ahead of the First Right Turn on the Public Right Turn Lane at Signalized Intersection
+#' Traffic Going Straight Ahead of the First Right Turn on the Shared Right Turn Lane at Signalized Intersection
 #'
-#' Traffic going straight ahead of the first right turn on the public right turn lane at the signal intersection.
+#' Traffic going straight ahead of the first right turn on the shared right turn lane at the signal intersection(vph).
 #'     This function follows <Formula 8-15>, <Formula 8-16> in KHCM(2013), p.239.
 #' @param case Case of signalized intersection. Choose one from: \code{'case1'}, \code{'case2'}, \code{'case3'}, \code{'case4'}, \code{'case5'}, \code{'case6'}. See \code{\link{case_si}}
 #' @param V_R Right Turn Traffic Volume(vph)
@@ -8,7 +8,7 @@
 #' @param C Signal cycle(seconds)
 #' @param N Total number of access lanes (excluding dedicated left-turn lanes)
 #' @keywords traffic going straight right turn public lane signalized intersection
-#' @seealso \code{\link{lane_group_si}}
+#' @seealso \code{\link{lane_group_si}}, \code{\link{P_R_pd_si}}
 #' @export V_RF_si
 #' @examples
 #' V_RF_si(case = 'case3', V_R = 432, V_TH = 1293, C = 182, N = 4)

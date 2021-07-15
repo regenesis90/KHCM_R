@@ -11,7 +11,7 @@
 #'     * In other words, since the right lane is generally wider than the other straight lanes, the amount of traffic that turns right and exits straight ahead (even at a green signal) is excluded from the analysis.
 #'     * This is because these vehicles can be regarded as right-turn-only vehicles that turn right regardless of the signal.
 #'     * There are more cases of public right-turn lanes that have been docked to a traffic island near the stop line because the lane width is generally wide.
-#' @seealso \code{\link{F_R_si}}, \code{\link{E_R1_si}}
+#' @seealso \code{\link{F_R_si}}, \code{\link{E_R1_si}}, \code{\link{P_R_pd_si}}
 #' @keywords traffic volume land use signalized intersection
 #' @export V_R_si
 #' @examples

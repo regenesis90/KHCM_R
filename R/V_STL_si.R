@@ -1,16 +1,16 @@
-#' Straight-through Traffic Volume Using Public Left-turn Lanes at Signalized Intersection
+#' Straight-through Traffic Volume Using Shared Left-turn Lanes at Signalized Intersection
 #'
-#' Straight-through traffic volume(vph) using public left-turn lanes at signalized intersection.
+#' Straight-through traffic volume(vph) using shared left-turn lanes at signalized intersection.
 #'     This function follows <Formula 8-17>, <Formula 8-18> in KHCM(2013), p.240.
 #' @param case Case of signalized intersection. Choose one from: \code{'case4'}, \code{'case5'}, \code{'case6'}. See \code{\link{case_si}}
-#' @param V_R Right Turn Traffic Volume(vph)
+#' @param V_R Right Turn Traffic Volume(vph). See \code{\link{V_R_si}}
 #' @param V_L Left Turn Traffic Volume(vph)
 #' @param V_TH Straight-through traffic (vph)
 #' @param E_R Forward conversion factor for right turn. See \code{\link{E_R_si}}
 #' @param E_L Forward conversion factor for left turn. See \code{\link{E_L_si}}
 #' @param N Total number of access lanes (excluding dedicated left-turn lanes).
 #' @keywords straight-through traffic volume public left-turn signalized intersection
-#' @seealso \code{\link{E_R_si}}, \code{\link{E_L_si}}, \code{\link{lane_group_si}}
+#' @seealso \code{\link{E_R_si}}, \code{\link{E_L_si}}, \code{\link{lane_group_si}}, \code{\link{V_R_si}}
 #' @export V_STL_si
 #' @examples
 #' V_STL_si(case = 'case6', V_R = 323, V_L = 291, V_TH = 999, E_R = 1.2, E_L = 1.09, N = 4)
