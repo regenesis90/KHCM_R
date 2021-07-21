@@ -2,11 +2,11 @@
 #'
 #' Average control delay per vehicle on signalized intersection (sec/veh).
 #'     It follows <Formula 8-43> in KHCM(2013) p.251.
-#' @param d_1 Interlocking corrected uniform control delay(sec/veh). See \code{\link{d_1_nq_si}}, \code{\link{d_1_yq_si}}
-#' @param d_2 Incremental lag indicative of random arrivals and supersaturation. See \code{\link{d_2_nq_si}}, \code{\link{d_2_yq_si}}
-#' @param d_3 Additional delay (sec/veh). See \code{\link{d_3_case_si}}, \code{\link{d_3_yq_si}}
+#' @param d_1 Interlocking corrected uniform control delay(sec/veh). See \code{\link{d_1_si}}
+#' @param d_2 Incremental lag indicative of random arrivals and supersaturation. See \code{\link{d_2_si}}
+#' @param d_3 Additional delay (sec/veh). See \code{\link{d_3_case_si}}, \code{\link{d_3_si}}
 #' @param PF Interlocking coefficient. See \code{\link{PF_si}}
-#' @seealso \code{\link{d_1_nq_si}}, \code{\link{d_1_yq_si}}, \code{\link{d_2_nq_si}}, \code{\link{d_2_yq_si}}, \code{\link{d_3_case_si}}, \code{\link{d_3_yq_si}}, \code{\link{PF_si}}
+#' @seealso \code{\link{d_1_si}}, \code{\link{d_2_si}}, \code{\link{d_3_case_si}}, \code{\link{d_3_si}}, \code{\link{PF_si}}
 #' @export d_si Average control delay per vehicle
 #' @examples
 #' d_si(d_1 = 32.1, d_2 = 11.1, d_3 = 9.20, PF = 1.43)
