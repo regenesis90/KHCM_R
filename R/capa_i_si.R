@@ -1,7 +1,7 @@
 #' Capacity of Lane Group i at Signalized Intersection
 #'
 #' Capacity of lane group i at signalized intersection.
-#'     It follows <Formula 8-40> in KHCM(2013), p.249.
+#'     It follows <Formula 8-40> in KHCM(2013), p.250.
 #' @param S_i Saturated traffic flow rate (vph) for the i lane group. See \code{\link{S_i_si}}
 #' @param g_i Effective green time for i lane group (seconds)
 #' @param C Signal period(seconds)
