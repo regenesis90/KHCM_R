@@ -1,17 +1,17 @@
-#' Fixed Signal Interlocking Coefficient on Arterial Road
+#' Fixed Signal Interlocking Coefficient on Signalized Intersection
 #'
-#' Fixed signal interlocking coefficient on arterial roads.
+#' Fixed signal interlocking coefficient on signalized intersection.
 #'     For non-interlocking fixed-signal intersections or sub-road access roads,
 #'     dedicated left-turn lane groups, dedicated right-turn lane groups, etc., the correction factor is set to 1.0 regardless of arrival type.
-#'     This function follows <12-8> in KHCM(2013) p.541.
-#' @param TVO Offset convenience rate on arterial road. See \code{\link{TVO_artl}}
+#'     This function follows <8-17> in KHCM(2013) p.257.
+#' @param TVO Offset convenience rate on arterial road. See \code{\link{TVO_si}}
 #' @param g_c_ratio Green time/Signal cycle ratio
 #' @keywords Fixed Signal Interlocking Coefficient Arterial Road
-#' @export PF_fix_artl Fixed time signal interlocking factor
+#' @export PF_si
 #' @examples
-#' PF_fix_artl(TVO = 1, g_c_ratio = 0.2)
-#' PF_fix_artl(TVO = 0.32, g_c_ratio = 0.254)
-PF_fix_artl <- function(TVO = NULL, g_c_ratio= NULL){
+#' PF_si(TVO = 1, g_c_ratio = 0.2)
+#' PF_si(TVO = 0.32, g_c_ratio = 0.254)
+PF_si <- function(TVO = NULL, g_c_ratio= NULL){
   if (TVO == 0){
     if (g_c_ratio > 0 & g_c_ratio < 0.1){pf <- 1.04 + (0.86 - 1.04)/0.1 * (g_c_ratio - 0.1)}
     else if (g_c_ratio == 0.1){pf <- 1.04}
